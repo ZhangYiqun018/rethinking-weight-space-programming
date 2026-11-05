@@ -1,0 +1,1421 @@
+{
+  "id": "fig-exp5-ppo-vs-astra",
+  "caption": [
+    "Individual seed and reply scores, with group medians.",
+    "各训练种子和回复得分，以及组内中位数。"
+  ],
+  "panels": [
+    {
+      "title": "breakout",
+      "points": [
+        {
+          "label": "ppo500_s0",
+          "value": 25.344,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "breakout.ppo500_s0.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s1",
+          "value": 12.194,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "breakout.ppo500_s1.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s2",
+          "value": 19.82,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "breakout.ppo500_s2.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "seed 0",
+          "value": 307.823,
+          "source": {
+            "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 1",
+          "value": 440.134,
+          "source": {
+            "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 2",
+          "value": 407.647,
+          "source": {
+            "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 3",
+          "value": 56.079,
+          "source": {
+            "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 4",
+          "value": 195.069,
+          "source": {
+            "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "r0",
+          "value": 535.024,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 22
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r1",
+          "value": 476.286,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 23
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r2",
+          "value": 420.942,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 24
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r3",
+          "value": 341.913,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 25
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r4",
+          "value": 23.055,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 26
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r5",
+          "value": 541.135,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 27
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r6",
+          "value": 21.251,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 28
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r7",
+          "value": 21.251,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 29
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r8",
+          "value": 169.769,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 30
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r9",
+          "value": 451.061,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 31
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r0",
+          "value": 492.099,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 32
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r1",
+          "value": 487.772,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 33
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r2",
+          "value": 492.675,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 35
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r3",
+          "value": 483.697,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 36
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r4",
+          "value": 576.24,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 37
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r5",
+          "value": 446.086,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 38
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r6",
+          "value": 455.194,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 39
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r7",
+          "value": 559.59,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 40
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r8",
+          "value": 596.327,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 41
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r9",
+          "value": 484.492,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 42
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r0",
+          "value": 7.856,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 5
+          },
+          "group": "DeepSeek V4.1 · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 7.815,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 6
+          },
+          "group": "Kimi K3 · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 11.296,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 7
+          },
+          "group": "DeepSeek V4.1 Flash · orig · high"
+        },
+        {
+          "label": "Random / 随机",
+          "value": 0.512,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 1
+          },
+          "group": "Random / 随机"
+        },
+        {
+          "label": "Author Astra re-eval / 作者 Astra 复测",
+          "value": 500.071,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 4
+          },
+          "group": "Author Astra re-eval / 作者 Astra 复测"
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 19.82,
+          "source": [
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "breakout.ppo500_s0.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "breakout.ppo500_s1.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "breakout.ppo500_s2.mean"
+            }
+          ],
+          "group": "Authors PPO / 作者 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 307.823,
+          "source": [
+            {
+              "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_breakout/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+              "line": 1,
+              "key": "mean"
+            }
+          ],
+          "group": "Tuned PPO / 调参 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 381.4275,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 22
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 23
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 24
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 25
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 26
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 27
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 28
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 29
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 30
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 31
+            }
+          ],
+          "group": "Astra no-source / 无源码",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 489.9355,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 32
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 33
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 35
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 36
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 37
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 38
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 39
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 40
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 41
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 42
+            }
+          ],
+          "group": "Fresh Astra / 新 Astra",
+          "median": true
+        }
+      ],
+      "unit": "score / 得分",
+      "scale": "log1p",
+      "grouped": true,
+      "expected_marks": 37
+    },
+    {
+      "title": "seaquest",
+      "points": [
+        {
+          "label": "ppo500_s0",
+          "value": 7.493,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "seaquest.ppo500_s0.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s1",
+          "value": 4.379,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "seaquest.ppo500_s1.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s2",
+          "value": 88.884,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "seaquest.ppo500_s2.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "seed 0",
+          "value": 104.47,
+          "source": {
+            "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 1",
+          "value": 114.424,
+          "source": {
+            "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 2",
+          "value": 102.636,
+          "source": {
+            "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 3",
+          "value": 103.359,
+          "source": {
+            "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 4",
+          "value": 99.244,
+          "source": {
+            "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "r0",
+          "value": 1.533,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 43
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r1",
+          "value": 1.616,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 44
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r2",
+          "value": 0.869,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 45
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r3",
+          "value": 1.135,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 46
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r4",
+          "value": 0.121,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 47
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r5",
+          "value": 0.74,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 48
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r6",
+          "value": 1.967,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 49
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r7",
+          "value": 0.371,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 50
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r8",
+          "value": 0.542,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 51
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r9",
+          "value": 0.097,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 52
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r0",
+          "value": 69.919,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 53
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r1",
+          "value": 35.6,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 54
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r2",
+          "value": 4.955,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 55
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r3",
+          "value": 33.475,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 56
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r4",
+          "value": 33.575,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 57
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r5",
+          "value": 14.677,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 58
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r6",
+          "value": 8.025,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 59
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r7",
+          "value": 41.498,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 60
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r8",
+          "value": 27.772,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 61
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r9",
+          "value": 38.42,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 62
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r0",
+          "value": 0.564,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 8
+          },
+          "group": "DeepSeek V4.1 · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 0.644,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 9
+          },
+          "group": "Kimi K3 · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 0.112,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 10
+          },
+          "group": "DeepSeek V4.1 Flash · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 0.18,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 11
+          },
+          "group": "GLM 5.3 · orig · high"
+        },
+        {
+          "label": "Random / 随机",
+          "value": 0.118,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 2
+          },
+          "group": "Random / 随机"
+        },
+        {
+          "label": "Author Astra re-eval / 作者 Astra 复测",
+          "value": 53.725,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 5
+          },
+          "group": "Author Astra re-eval / 作者 Astra 复测"
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 7.493,
+          "source": [
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "seaquest.ppo500_s0.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "seaquest.ppo500_s1.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "seaquest.ppo500_s2.mean"
+            }
+          ],
+          "group": "Authors PPO / 作者 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 103.359,
+          "source": [
+            {
+              "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_seaquest/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+              "line": 1,
+              "key": "mean"
+            }
+          ],
+          "group": "Tuned PPO / 调参 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 0.8045,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 43
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 44
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 45
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 46
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 47
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 48
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 49
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 50
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 51
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 52
+            }
+          ],
+          "group": "Astra no-source / 无源码",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 33.525000000000006,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 53
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 54
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 55
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 56
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 57
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 58
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 59
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 60
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 61
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 62
+            }
+          ],
+          "group": "Fresh Astra / 新 Astra",
+          "median": true
+        }
+      ],
+      "unit": "score / 得分",
+      "scale": "log1p",
+      "grouped": true,
+      "expected_marks": 38
+    },
+    {
+      "title": "asterix",
+      "points": [
+        {
+          "label": "ppo500_s0",
+          "value": 44.706,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "asterix.ppo500_s0.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s1",
+          "value": 55.204,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "asterix.ppo500_s1.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "ppo500_s2",
+          "value": 46.879,
+          "source": {
+            "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+            "line": 1,
+            "key": "asterix.ppo500_s2.mean"
+          },
+          "group": "Authors PPO / 作者 PPO"
+        },
+        {
+          "label": "seed 0",
+          "value": 43.28,
+          "source": {
+            "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 1",
+          "value": 35.742,
+          "source": {
+            "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 2",
+          "value": 42.3,
+          "source": {
+            "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 3",
+          "value": 39.519,
+          "source": {
+            "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "seed 4",
+          "value": 39.477,
+          "source": {
+            "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+            "line": 1,
+            "key": "mean"
+          },
+          "group": "Tuned PPO / 调参 PPO"
+        },
+        {
+          "label": "r0",
+          "value": 15.203,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 2
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r1",
+          "value": 19.321,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 3
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r2",
+          "value": 17.655,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 4
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r3",
+          "value": 12.868,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 5
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r4",
+          "value": 17.167,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 6
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r5",
+          "value": 3.45,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 7
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r6",
+          "value": 42.893,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 8
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r7",
+          "value": 22.234,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 9
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r8",
+          "value": 10.972,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 10
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r9",
+          "value": 24.066,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 11
+          },
+          "group": "Astra no-source / 无源码"
+        },
+        {
+          "label": "r0",
+          "value": 58.171,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 12
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r1",
+          "value": 31.624,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 13
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r2",
+          "value": 64.922,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 14
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r3",
+          "value": 63.3,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 15
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r4",
+          "value": 72.084,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 16
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r5",
+          "value": 81.039,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 17
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r6",
+          "value": 61.747,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 18
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r7",
+          "value": 45.652,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 19
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r8",
+          "value": 41.308,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 20
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r9",
+          "value": 66.033,
+          "source": {
+            "path": "exp5/astra_write/results/scores.csv",
+            "line": 21
+          },
+          "group": "Fresh Astra / 新 Astra"
+        },
+        {
+          "label": "r0",
+          "value": 1.576,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 2
+          },
+          "group": "DeepSeek V4.1 · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 5.516,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 3
+          },
+          "group": "DeepSeek V4.1 Flash · orig · high"
+        },
+        {
+          "label": "r0",
+          "value": 11.067,
+          "source": {
+            "path": "exp5/astra_write/results_high/scores.csv",
+            "line": 4
+          },
+          "group": "GLM 5.3 · orig · high"
+        },
+        {
+          "label": "Random / 随机",
+          "value": 0.509,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 3
+          },
+          "group": "Random / 随机"
+        },
+        {
+          "label": "Author Astra re-eval / 作者 Astra 复测",
+          "value": 54.309,
+          "source": {
+            "path": "exp5/results/phase1b.jsonl",
+            "line": 6
+          },
+          "group": "Author Astra re-eval / 作者 Astra 复测"
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 46.879,
+          "source": [
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "asterix.ppo500_s0.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "asterix.ppo500_s1.mean"
+            },
+            {
+              "path": "upstream/lm_understand-logs/exp5_write_from_scratch/eval/minatar_eval.json",
+              "line": 1,
+              "key": "asterix.ppo500_s2.mean"
+            }
+          ],
+          "group": "Authors PPO / 作者 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 39.519,
+          "source": [
+            {
+              "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s0/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s1/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s2/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s3/eval.json",
+              "line": 1,
+              "key": "mean"
+            },
+            {
+              "path": "results/runs/exp5_ppo_asterix/runs/s2_lr1e-3_e512_ent0.01_s4/eval.json",
+              "line": 1,
+              "key": "mean"
+            }
+          ],
+          "group": "Tuned PPO / 调参 PPO",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 17.411,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 2
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 3
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 4
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 5
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 6
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 7
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 8
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 9
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 10
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 11
+            }
+          ],
+          "group": "Astra no-source / 无源码",
+          "median": true
+        },
+        {
+          "label": "Median / 中位数",
+          "value": 62.5235,
+          "source": [
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 12
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 13
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 14
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 15
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 16
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 17
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 18
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 19
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 20
+            },
+            {
+              "path": "exp5/astra_write/results/scores.csv",
+              "line": 21
+            }
+          ],
+          "group": "Fresh Astra / 新 Astra",
+          "median": true
+        }
+      ],
+      "unit": "score / 得分",
+      "scale": "log1p",
+      "grouped": true,
+      "expected_marks": 37
+    }
+  ],
+  "note": [
+    "Horizontal scale is log(1 + score), retaining zero scores. High-effort model runs remain separate. Authors PPO uses the released final training budget. Diamonds indicate group medians; circles are individual runs.",
+    "横轴为 log(1 + 得分)，保留零分。高推理强度的各模型运行分别显示。作者 PPO 使用公开的最终训练预算。 菱形为组内中位数，圆点为各次运行。"
+  ],
+  "figure_number": 4
+}

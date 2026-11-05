@@ -1,0 +1,109 @@
+net,game_true,condition,rep,model,game_text,label,correct,confidence,needs_review
+0bbcc3ea,freeway,anon,0,deepseek-v4.1,"Frogger, or a simplified grid/Frogger-like road-crossing game (possibly Crossy Road-like).",freeway,1,85.0,0
+0bbcc3ea,freeway,anon,0,kimi-k3,"Frogger — specifically a small 10×10 grid/Frogger-like crossing task: outer wall border, safe top goal row, safe bottom start row, and hazardous moving traffic lanes in between.",freeway,1,82.0,0
+0bbcc3ea,freeway,anon,0,gpt-6-astra,A simplified Frogger-style road-crossing game.,freeway,1,90.0,0
+0bbcc3ea,freeway,anon,1,deepseek-v4.1,"Sokoban (OpenAI Gym / gymsokoban-style 10×10 Sokoban, 5 channels, 5 actions).",other,0,95.0,0
+0bbcc3ea,freeway,anon,1,kimi-k3,"Frogger, or an equivalent simplified Crossy Road/Freeway-style lane-crossing game.",freeway,1,84.0,0
+0bbcc3ea,freeway,anon,1,gpt-6-astra,"Simplified Frogger — a traffic-only, Freeway-like road-crossing game with six lanes.",freeway,1,94.0,0
+0bbcc3ea,freeway,anon,2,gpt-6-astra,"Frogger — specifically a grid-based traffic-crossing variant, similar to Crossy Road.",freeway,1,90.0,0
+0bbcc3ea,freeway,anonshuffle,0,gpt-6-astra,"Frogger — tentatively, a simplified grid-based crossing game.",freeway,1,25.0,0
+0bbcc3ea,freeway,anonshuffle,1,gpt-6-astra,My best guess is a simplified Frogger-style road-crossing game.,freeway,1,30.0,0
+0bbcc3ea,freeway,anonshuffle,2,gpt-6-astra,Best guess: a small grid-based Frogger-style crossing game.,freeway,1,25.0,0
+0bbcc3ea,freeway,orig,0,deepseek-v4.1,Freeway — a simplified Atari Freeway / road-crossing game (chicken crossing traffic to reach the top row).,freeway,1,86.0,0
+0bbcc3ea,freeway,orig,0,kimi-k3,Freeway — i.e. the Frogger/chicken-cross-the-road Atari/MinAtar-style game on a 10x10 grid.,freeway,1,82.0,0
+0bbcc3ea,freeway,orig,0,gpt-6-astra,Frogger — a simplified grid-based traffic-crossing version.,freeway,1,97.0,0
+0bbcc3ea,freeway,orig,1,deepseek-v4.1,"Sokoban (a small box-pushing puzzle, likely a simplified 8×8 Sokoban level).",other,0,88.0,0
+0bbcc3ea,freeway,orig,1,kimi-k3,A Frogger / Crossy-Road-style grid crossing game: move the agent upward across lanes of horizontally moving hazards to reach the far side; walls and collisions are terminal or forbidden.,freeway,1,82.0,0
+0bbcc3ea,freeway,orig,1,gpt-6-astra,"Frogger — a small-grid, lane-based road-crossing variant.",freeway,1,97.0,0
+0bbcc3ea,freeway,orig,2,gpt-6-astra,"Frogger — a simplified, traffic-only road-crossing game with six horizontal lanes.",freeway,1,98.0,0
+0bbcc3ea,freeway,perm,0,gpt-6-astra,Frogger — a simplified grid-based traffic-crossing version.,freeway,1,97.0,0
+0bbcc3ea,freeway,perm,1,gpt-6-astra,"Frogger — most likely a simplified, traffic-only grid version, also resembling Freeway.",freeway,1,96.0,0
+0bbcc3ea,freeway,perm,2,gpt-6-astra,Frogger — a simplified road-crossing / traffic-avoidance version.,freeway,1,95.0,0
+0bbcc3ea,freeway,randinit,0,deepseek-v4.1,Snake (classic 10×10 grid Snake with an 8×8 playable area inside a wall border).,other,0,70.0,0
+0bbcc3ea,freeway,randinit,0,kimi-k3,Cannot be determined from these weights; no specific well-known game is encoded recognizably.,unknown,0,95.0,0
+0bbcc3ea,freeway,randinit,0,gpt-6-astra,Not identifiable. These appear to be initialization-like weights rather than a recognizable game-playing policy.,unknown,0,0.0,0
+0bbcc3ea,freeway,randinit,1,deepseek-v4.1,Snake (classic grid Snake),other,0,72.0,0
+0bbcc3ea,freeway,randinit,1,kimi-k3,"Breakout-like brick breaker: a bottom paddle, one moving ball, wall border, and reward bricks/targets.",breakout,0,55.0,0
+0bbcc3ea,freeway,randinit,1,gpt-6-astra,"Not identifiable. This appears to be an initialization-like, essentially random policy rather than an identifiable game-playing policy.",unknown,0,99.0,0
+0bbcc3ea,freeway,randinit,2,gpt-6-astra,"Not identifiable. These weights look like a randomly initialized or effectively untrained PPO policy, rather than a recognizable game-playing policy.",unknown,0,99.0,0
+0bbcc3ea,freeway,shuffle,0,gpt-6-astra,Frogger — a small-grid traffic-crossing variant.,freeway,1,60.0,0
+0bbcc3ea,freeway,shuffle,1,gpt-6-astra,"Frogger — a simplified grid-based road-crossing game, probably with three traffic lanes.",freeway,1,85.0,0
+0bbcc3ea,freeway,shuffle,2,gpt-6-astra,Frogger — a simplified grid-based traffic-crossing game.,freeway,1,60.0,0
+0bbcc3ea,freeway,swap12,0,gpt-6-astra,"Frogger — a small grid-based, bottom-to-top moving-lane crossing variant.",freeway,1,93.0,0
+0bbcc3ea,freeway,swap12,1,gpt-6-astra,Frogger — most likely a river-crossing variant with horizontally moving logs or platforms.,freeway,1,80.0,0
+0bbcc3ea,freeway,swap12,2,gpt-6-astra,Frogger — specifically a moving-log/platform river-crossing variant.,freeway,1,92.0,0
+a9f535cc,breakout,anon,0,deepseek-v4.1,Sokoban (warehouse-keeper box-pushing puzzle).,other,0,85.0,0
+a9f535cc,breakout,anon,0,kimi-k3,Snake — the classic bordered-grid snake/nibbler game.,other,0,76.0,0
+a9f535cc,breakout,anon,0,gpt-6-astra,"Breakout — a grid-based brick-breaker, in the Breakout/Arkanoid family.",breakout,1,97.0,0
+a9f535cc,breakout,anon,1,deepseek-v4.1,"Snake, specifically a grid-world snake/collect-food-and-grow game on the \(8\times8\) playable area.",other,0,85.0,0
+a9f535cc,breakout,anon,1,kimi-k3,Snake — specifically a walled 8×8 “Nibbler”-style snake game with random food and four-direction movement.,ambiguous,,82.0,1
+a9f535cc,breakout,anon,1,gpt-6-astra,Breakout — a small grid-based brick-breaker.,breakout,1,96.0,0
+a9f535cc,breakout,anon,2,gpt-6-astra,Breakout — a simplified grid-based Breakout/Arkanoid-style brick breaker.,breakout,1,97.0,0
+a9f535cc,breakout,anonshuffle,0,gpt-6-astra,"Tentatively, a small-grid Breakout variant—a horizontally controlled paddle-and-ball game. Catch remains a substantial alternative.",breakout,1,30.0,0
+a9f535cc,breakout,anonshuffle,1,gpt-6-astra,"My best guess is a small grid-based Breakout variant, with a horizontally moving paddle.",breakout,1,35.0,0
+a9f535cc,breakout,anonshuffle,2,gpt-6-astra,"Tentatively, a small grid-based Breakout variant. The stronger conclusion is a horizontally controlled paddle game.",breakout,1,35.0,0
+a9f535cc,breakout,orig,0,deepseek-v4.1,"Breakout, i.e. an Atari-style brick-breaker / Arkanoid-like game on this grid.",breakout,1,98.0,0
+a9f535cc,breakout,orig,0,kimi-k3,Sokoban — more precisely a small 8×8 Sokoban/box-pushing gridworld inside a wall border.,other,0,72.0,0
+a9f535cc,breakout,orig,0,gpt-6-astra,"Breakout — a grid-based paddle-and-ball brick breaker, similar to Arkanoid.",breakout,1,98.0,0
+a9f535cc,breakout,orig,1,deepseek-v4.1,"Breakout / brick-breaker (Atari Breakout, on a 10×10 grid).",breakout,1,95.0,0
+a9f535cc,breakout,orig,1,kimi-k3,"A Pac‑Man‑style grid game — closest well‑known name: Pac‑Man, simplified to an open walled 8×8 room (pellets to eat, ghosts/monsters roaming, outer wall the only obstacle, previous frame supplied so ghost direction can be inferred). If a generator label is wanted: a “collect‑the‑dots / dodge‑the‑movers (Pac‑Man‑like)” task.",pacman,0,70.0,0
+a9f535cc,breakout,orig,1,gpt-6-astra,"Breakout — a grid-based brick-breaker, also resembling Arkanoid.",breakout,1,99.0,0
+a9f535cc,breakout,orig,2,gpt-6-astra,Breakout — a simplified grid-based brick-breaker.,breakout,1,98.0,0
+a9f535cc,breakout,perm,0,gpt-6-astra,"Breakout — a grid-based brick-breaker, similar to Arkanoid.",breakout,1,98.0,0
+a9f535cc,breakout,perm,1,gpt-6-astra,"Breakout — an Arkanoid-style brick breaker, with a paddle on row 8 and bricks in rows 1–3.",breakout,1,98.0,0
+a9f535cc,breakout,perm,2,gpt-6-astra,"Breakout — a grid-based brick-breaker, in the Breakout/Arkanoid family.",breakout,1,99.0,0
+a9f535cc,breakout,randinit,0,deepseek-v4.1,Breakout (MinAtar-style Breakout).,breakout,1,78.0,0
+a9f535cc,breakout,randinit,0,kimi-k3,A Snake-like game — closest to the well-known game Snake on an 8×8 arena inside a wall border.,other,0,72.0,0
+a9f535cc,breakout,randinit,0,gpt-6-astra,Not identifiable from these weights; no particular game is supported.,unknown,0,99.0,0
+a9f535cc,breakout,randinit,1,deepseek-v4.1,Pac-Man (a simplified 10×10 grid Pac-Man).,pacman,0,82.0,0
+a9f535cc,breakout,randinit,1,kimi-k3,Not identifiable — the weights are functionally at random initialisation; there is no evidence that any particular game was learned. Any grid game matching the channel spec (e.g. a collect-rewards/avoid-movers game) fits equally well.,unknown,0,10.0,0
+a9f535cc,breakout,randinit,1,gpt-6-astra,"Not identifiable. These weights are consistent with a randomly initialized, essentially untrained PPO policy.",unknown,0,99.0,0
+a9f535cc,breakout,randinit,2,gpt-6-astra,"Not identifiable. These appear to be initialization-like weights, not a discernibly game-specific learned policy.",unknown,0,99.0,0
+a9f535cc,breakout,shuffle,0,gpt-6-astra,Most likely Breakout — a horizontal-paddle brick-breaking game.,breakout,1,55.0,0
+a9f535cc,breakout,shuffle,1,gpt-6-astra,Best guess: Breakout — a horizontal paddle-and-ball brick breaker.,breakout,1,50.0,0
+a9f535cc,breakout,shuffle,2,gpt-6-astra,Most likely Breakout — a small horizontal-paddle brick-breaking game.,breakout,1,35.0,0
+a9f535cc,breakout,swap12,0,gpt-6-astra,Breakout — a grid-based brick-breaker with a bottom paddle.,breakout,1,90.0,0
+a9f535cc,breakout,swap12,1,gpt-6-astra,Breakout — a grid-based paddle-and-ball brick-breaking game.,breakout,1,89.0,0
+a9f535cc,breakout,swap12,2,gpt-6-astra,Breakout — a grid-based paddle-and-ball brick breaker.,breakout,1,89.0,0
+bdf99279,pacman,anon,0,gpt-6-astra,A small Pac-Man–style game: pellet collection and ghost avoidance in a fixed maze.,pacman,1,85.0,0
+bdf99279,pacman,anon,1,gpt-6-astra,A small gridworld version of Pac-Man: maze pellet collection with ghost avoidance and likely power pellets.,pacman,1,85.0,0
+bdf99279,pacman,anon,2,gpt-6-astra,"Pac-Man, or a small fixed-maze Pac-Man-style gridworld.",pacman,1,88.0,0
+bdf99279,pacman,anonshuffle,0,gpt-6-astra,"Undetermined—a game using a grid observation and four directional actions, but no specific well-known game is reliably identifiable from these weights.",unknown,0,0.0,0
+bdf99279,pacman,anonshuffle,1,gpt-6-astra,"Undetermined from the supplied weights. I cannot responsibly distinguish Sokoban, Snake, Pac-Man, or a custom grid game.",unknown,0,0.0,0
+bdf99279,pacman,anonshuffle,2,gpt-6-astra,"Not reliably identifiable from the supplied weights and encoding information. Naming Snake, Sokoban, or Pac-Man would be speculation.",unknown,0,95.0,0
+bdf99279,pacman,orig,0,gpt-6-astra,"Pac-Man — a compact, fixed-maze grid version.",pacman,1,95.0,0
+bdf99279,pacman,orig,1,gpt-6-astra,"Pac-Man — a miniature, fixed-maze gridworld version.",pacman,1,96.0,0
+bdf99279,pacman,orig,2,gpt-6-astra,"Mini Pac-Man — a small, fixed-maze Pac-Man-style game.",pacman,1,96.0,0
+bdf99279,pacman,perm,0,gpt-6-astra,A small-grid Pac-Man variant: maze pellet collection while avoiding roaming ghosts.,pacman,1,97.0,0
+bdf99279,pacman,perm,1,gpt-6-astra,"Pac-Man — a simplified grid-based maze, pellet, and ghost variant.",pacman,1,97.0,0
+bdf99279,pacman,perm,2,gpt-6-astra,Pac-Man — a small grid-based maze-and-pellet version.,pacman,1,96.0,0
+bdf99279,pacman,randinit,0,gpt-6-astra,"Not identifiable. This most likely is a randomly initialized or effectively unchanged PPO policy, rather than a meaningfully learned game-playing policy.",unknown,0,99.0,0
+bdf99279,pacman,randinit,1,gpt-6-astra,"Not identifiable from these weights. They appear to describe an essentially untrained, near-uniform policy rather than a recognizable game-playing policy.",unknown,0,99.0,0
+bdf99279,pacman,randinit,2,gpt-6-astra,"Not identifiable from these weights. They appear to be a randomly initialized, or essentially unchanged, PPO policy.",unknown,0,99.0,0
+bdf99279,pacman,shuffle,0,gpt-6-astra,Undetermined; weak best guess: a Pac-Man-like maze-collection game.,unknown,0,15.0,0
+bdf99279,pacman,shuffle,1,gpt-6-astra,"Undetermined. No specific game, or sufficiently distinctive game family, is identifiable from this dump with reasonable confidence.",unknown,0,0.0,0
+bdf99279,pacman,shuffle,2,gpt-6-astra,Tentative guess: a small Pac-Man-like collection/avoidance game. I cannot defensibly identify an exact game from this dump.,pacman,1,20.0,0
+bdf99279,pacman,swap12,0,gpt-6-astra,"Pac-Man — a small, fixed-maze grid version.",pacman,1,97.0,0
+bdf99279,pacman,swap12,1,gpt-6-astra,A miniature Pac-Man–style game on a fixed maze.,pacman,1,97.0,0
+bdf99279,pacman,swap12,2,gpt-6-astra,Pac-Man — a simplified fixed-maze grid version with pellets and moving ghosts.,pacman,1,97.0,0
+dfc6cb65,pong,anon,0,gpt-6-astra,"Grid-based Pong — probably a single-player paddle-ball rally variant, with the player’s paddle on the left.",pong,1,90.0,0
+dfc6cb65,pong,anon,1,gpt-6-astra,"Pong — a small-grid version with a vertical paddle on the left, probably a single-paddle “wall Pong” variant.",pong,1,90.0,0
+dfc6cb65,pong,anon,2,gpt-6-astra,Pong — most likely a single-player paddle-ball variant with a vertical left paddle and a reflecting right side.,pong,1,91.0,0
+dfc6cb65,pong,anonshuffle,0,gpt-6-astra,"Best guess: a small grid version of Pong, with the agent controlling a paddle that moves up and down.",pong,1,65.0,0
+dfc6cb65,pong,anonshuffle,1,gpt-6-astra,"Most likely a small grid-based version of Pong, with a paddle controlled by up and down.",pong,1,50.0,0
+dfc6cb65,pong,anonshuffle,2,gpt-6-astra,"Most likely a small grid-based Pong game, with the agent controlling a paddle that moves up and down.",pong,1,65.0,0
+dfc6cb65,pong,orig,0,gpt-6-astra,Pong — most likely a single-player wall-Pong variant with the paddle on the left.,pong,1,97.0,0
+dfc6cb65,pong,orig,1,gpt-6-astra,"Pong — a grid-based version controlling the left-hand paddle, with a right-hand scoring goal.",pong,1,97.0,0
+dfc6cb65,pong,orig,2,gpt-6-astra,Pong — a small-grid version with an up/down-controlled paddle on the left.,pong,1,97.0,0
+dfc6cb65,pong,perm,0,gpt-6-astra,"Pong, with the player controlling a vertical paddle on the left and the scoring side on the right.",pong,1,96.0,0
+dfc6cb65,pong,perm,1,gpt-6-astra,Pong — most likely a single-player grid Pong variant with a left-side paddle and a right-hand scoring wall.,pong,1,96.0,0
+dfc6cb65,pong,perm,2,gpt-6-astra,"Pong — most likely a single-player wall-Pong variant, with a vertical paddle on the left.",pong,1,97.0,0
+dfc6cb65,pong,randinit,0,gpt-6-astra,"Not identifiable. These weights most strongly resemble an untrained PPO policy initialization, not a recognizable game-playing policy.",unknown,0,99.0,0
+dfc6cb65,pong,randinit,1,gpt-6-astra,"Not identifiable. This appears to be an untrained or effectively untrained policy, with no discernible game-specific signature.",unknown,0,99.0,0
+dfc6cb65,pong,randinit,2,gpt-6-astra,Not identifiable. These weights appear effectively untrained or unchanged from initialization; naming a particular game would be unsupported.,unknown,0,99.0,0
+dfc6cb65,pong,shuffle,0,gpt-6-astra,"Best guess: a simplified grid-based Pong game, controlling a vertical paddle.",pong,1,78.0,0
+dfc6cb65,pong,shuffle,1,gpt-6-astra,Pong — or a simplified Pong-style game with a vertically moving paddle.,pong,1,75.0,0
+dfc6cb65,pong,shuffle,2,gpt-6-astra,"Pong — most likely a simplified grid-based, vertical-paddle variant.",pong,1,70.0,0
+dfc6cb65,pong,swap12,0,gpt-6-astra,"Pong — a grid-based, vertically controlled left-paddle ball-return variant.",pong,1,97.0,0
+dfc6cb65,pong,swap12,1,gpt-6-astra,Pong — a simplified grid-based version with a vertically moving paddle on the left.,pong,1,96.0,0
+dfc6cb65,pong,swap12,2,gpt-6-astra,Pong — most likely a simplified single-player version with a left-side vertical paddle and a reflecting right wall.,pong,1,97.0,0

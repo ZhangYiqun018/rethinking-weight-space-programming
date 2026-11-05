@@ -1,0 +1,60 @@
+python: layer-0 'prev' scores {L0H0:0.035, L0H1:0.058, L0H2:0.043, L0H3:0.024, L0H4:0.035, L0H5:0.649} true prev head = L0H5
+  P1 pick L0H4: WRONG (true rank 5/6)
+  S1 pick L0H5: RIGHT (true rank 1/6)
+  S2 pick L0H0: WRONG (true rank 4/6)
+  cutoff 0.2: truth induct ['L2H1', 'L3H1', 'L3H5']
+    C1|P1     pred [] tp=0/0 pred, 0/3 true  P=nan R=0.00
+    C1|S1     pred [] tp=0/0 pred, 0/3 true  P=nan R=0.00
+    C1|S2     pred [] tp=0/0 pred, 0/3 true  P=nan R=0.00
+    Astra_r0  pred ['L2H1', 'L3H1', 'L3H5'] tp=3/3 pred, 3/3 true  P=1.00 R=1.00
+    Astra_r1  pred ['L2H1', 'L3H1', 'L3H5'] tp=3/3 pred, 3/3 true  P=1.00 R=1.00
+  cutoff 0.3: truth induct ['L3H5']
+    C1|P1     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    C1|S1     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    C1|S2     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    Astra_r0  pred ['L2H1', 'L3H1', 'L3H5'] tp=1/3 pred, 1/1 true  P=0.33 R=1.00
+    Astra_r1  pred ['L2H1', 'L3H1', 'L3H5'] tp=1/3 pred, 1/1 true  P=0.33 R=1.00
+  descriptive: ranks of true copy heads (induct>0.2) by Kc from P1 pick: L2H1->17/18, L3H1->16/18, L3H5->18/18
+romaji: layer-0 'prev' scores {L0H0:0.044, L0H1:0.030, L0H2:0.032, L0H3:0.560, L0H4:0.032, L0H5:0.034} true prev head = L0H3
+  P1 pick L0H5: WRONG (true rank 3/6)
+  S1 pick L0H3: RIGHT (true rank 1/6)
+  S2 pick L0H2: WRONG (true rank 4/6)
+  cutoff 0.2: truth induct ['L3H3']
+    C1|P1     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    C1|S1     pred ['L1H2'] tp=0/1 pred, 0/1 true  P=0.00 R=0.00
+    C1|S2     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    Astra_r0  pred ['L3H3'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+    Astra_r1  pred ['L3H3'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+  cutoff 0.3: truth induct []
+    C1|P1     pred [] tp=0/0 pred, 0/0 true  P=nan R=nan
+    C1|S1     pred ['L1H2'] tp=0/1 pred, 0/0 true  P=0.00 R=nan
+    C1|S2     pred [] tp=0/0 pred, 0/0 true  P=nan R=nan
+    Astra_r0  pred ['L3H3'] tp=0/1 pred, 0/0 true  P=0.00 R=nan
+    Astra_r1  pred ['L3H3'] tp=0/1 pred, 0/0 true  P=0.00 R=nan
+  descriptive: ranks of true copy heads (induct>0.2) by Kc from P1 pick: L3H3->18/18
+english: layer-0 'prev' scores {L0H0:0.035, L0H1:0.035, L0H2:0.975, L0H3:0.061, L0H4:0.032, L0H5:0.033} true prev head = L0H2
+  P1 pick L0H5: WRONG (true rank 5/6)
+  S1 pick L0H2: RIGHT (true rank 1/6)
+  S2 pick L0H5: WRONG (true rank 5/6)
+  cutoff 0.2: truth induct ['L3H1']
+    C1|P1     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    C1|S1     pred ['L1H5', 'L3H1'] tp=1/2 pred, 1/1 true  P=0.50 R=1.00
+    C1|S2     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    Astra_r0  pred ['L3H1'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+    Astra_r1  pred ['L3H1'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+  cutoff 0.3: truth induct ['L3H1']
+    C1|P1     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    C1|S1     pred ['L1H5', 'L3H1'] tp=1/2 pred, 1/1 true  P=0.50 R=1.00
+    C1|S2     pred [] tp=0/0 pred, 0/1 true  P=nan R=0.00
+    Astra_r0  pred ['L3H1'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+    Astra_r1  pred ['L3H1'] tp=1/1 pred, 1/1 true  P=1.00 R=1.00
+  descriptive: ranks of true copy heads (induct>0.2) by Kc from P1 pick: L3H1->18/18
+POOLED (Astra = both runs summed)
+  C1|P1   cutoff 0.2: tp=0 npred=0 ntrue=5 P=nan R=0.00
+  C1|S1   cutoff 0.2: tp=1 npred=3 ntrue=5 P=0.33 R=0.20
+  C1|S2   cutoff 0.2: tp=0 npred=0 ntrue=5 P=nan R=0.00
+  Astra   cutoff 0.2: tp=10 npred=10 ntrue=10 P=1.00 R=1.00
+  C1|P1   cutoff 0.3: tp=0 npred=0 ntrue=2 P=nan R=0.00
+  C1|S1   cutoff 0.3: tp=1 npred=3 ntrue=2 P=0.33 R=0.50
+  C1|S2   cutoff 0.3: tp=0 npred=0 ntrue=2 P=nan R=0.00
+  Astra   cutoff 0.3: tp=4 npred=10 ntrue=4 P=0.40 R=1.00

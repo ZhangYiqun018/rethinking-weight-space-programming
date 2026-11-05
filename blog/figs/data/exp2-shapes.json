@@ -1,0 +1,245 @@
+{
+  "id": "fig-exp2-shapes",
+  "caption": [
+    "Released samples and literal Example grids: shape recognition does not establish fill recognition.",
+    "公开样本与原始 Example 网格：识别形状不等于识别填充。"
+  ],
+  "panels": [
+    {
+      "title": "triangle",
+      "grids": [
+        {
+          "label": "Generated sample / 生成样本",
+          "grid": [
+            "            ",
+            "            ",
+            "            ",
+            "            ",
+            "     =:     ",
+            "    .@#     ",
+            "    *@@-    ",
+            "   :@@@%    ",
+            "   #@@@@=   ",
+            "  -%@@@%#.  ",
+            "            ",
+            "            "
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/eval/samples/246a5b58.txt",
+            "line": 1,
+            "key": "first sample"
+          },
+          "kind": "ascii"
+        },
+        {
+          "label": "Authors’ Astra / 作者 Astra",
+          "grid": [
+            "............",
+            "............",
+            ".....#......",
+            "....#.#.....",
+            "....#.#.....",
+            "...#...#....",
+            "...#...#....",
+            "..#.....#...",
+            "..#.....#...",
+            ".#.......#..",
+            ".#########..",
+            "............"
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/runs/triangle/answer.md",
+            "line": 1,
+            "key": "Example"
+          },
+          "kind": "outline"
+        },
+        {
+          "label": "DeepSeek V4.1 r0",
+          "grid": [
+            "............",
+            ".....##.....",
+            "...######...",
+            "..########..",
+            ".##########.",
+            ".##########.",
+            ".##########.",
+            ".##########.",
+            "..########..",
+            "...######...",
+            ".....##.....",
+            "............"
+          ],
+          "source": {
+            "path": "exp2/results/raw",
+            "line": 1,
+            "key": "exp2/score_replies.py over exp2/results/raw (DeepSeek V4.1 replies); identity=['246a5b58', 'r0']; Example"
+          },
+          "kind": "filled"
+        }
+      ],
+      "points": [],
+      "unit": "",
+      "expected_marks": 432
+    },
+    {
+      "title": "square",
+      "grids": [
+        {
+          "label": "Generated sample / 生成样本",
+          "grid": [
+            "            ",
+            "            ",
+            "            ",
+            " -.....     ",
+            ".%@@@@%     ",
+            ".@@@@@@     ",
+            ".@@@@@@     ",
+            ".@@@@@%     ",
+            ".@@@@@@     ",
+            ".##%%%%.    ",
+            " .    .     ",
+            "            "
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/eval/samples/a6a9dfb7.txt",
+            "line": 1,
+            "key": "first sample"
+          },
+          "kind": "ascii"
+        },
+        {
+          "label": "Authors’ Astra / 作者 Astra",
+          "grid": [
+            "............",
+            "............",
+            "..########..",
+            "..#......#..",
+            "..#......#..",
+            "..#......#..",
+            "..#......#..",
+            "..#......#..",
+            "..#......#..",
+            "..########..",
+            "............",
+            "............"
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/runs/square/answer.md",
+            "line": 1,
+            "key": "Example"
+          },
+          "kind": "outline"
+        },
+        {
+          "label": "DeepSeek V4.1 r0",
+          "grid": [
+            "............",
+            "..#########.",
+            ".##.........",
+            ".##.........",
+            ".##.........",
+            ".########...",
+            ".......##...",
+            ".......##...",
+            ".......##...",
+            ".########...",
+            "............",
+            "............"
+          ],
+          "source": {
+            "path": "exp2/results/raw",
+            "line": 1,
+            "key": "exp2/score_replies.py over exp2/results/raw (DeepSeek V4.1 replies); identity=['a6a9dfb7', 'r0']; Example"
+          },
+          "kind": "filled"
+        }
+      ],
+      "points": [],
+      "unit": "",
+      "expected_marks": 432
+    },
+    {
+      "title": "circle",
+      "grids": [
+        {
+          "label": "Generated sample / 生成样本",
+          "grid": [
+            "            ",
+            "            ",
+            "            ",
+            "            ",
+            "   :++:     ",
+            "  -#@@%=    ",
+            " .*@@@@%.   ",
+            "  #@@@@@:   ",
+            "  #@@@@%.   ",
+            "  :%@@@+    ",
+            "   :++-     ",
+            "            "
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/eval/samples/d88aba69.txt",
+            "line": 1,
+            "key": "first sample"
+          },
+          "kind": "ascii"
+        },
+        {
+          "label": "Authors’ Astra / 作者 Astra",
+          "grid": [
+            "............",
+            "....####....",
+            "...#....#...",
+            "..#......#..",
+            ".#........#.",
+            ".#........#.",
+            ".#........#.",
+            ".#........#.",
+            "..#......#..",
+            "...#....#...",
+            "....####....",
+            "............"
+          ],
+          "source": {
+            "path": "upstream/lm_understand-logs/exp2_diffusion/runs/circle/answer.md",
+            "line": 1,
+            "key": "Example"
+          },
+          "kind": "outline"
+        },
+        {
+          "label": "DeepSeek V4.1 r0",
+          "grid": [
+            "............",
+            "....###.....",
+            "...##.......",
+            "..##........",
+            "..##........",
+            "..##........",
+            "..###.......",
+            "..#####.....",
+            "..##..##....",
+            "...####.....",
+            "............",
+            "............"
+          ],
+          "source": {
+            "path": "exp2/results/raw",
+            "line": 1,
+            "key": "exp2/score_replies.py over exp2/results/raw (DeepSeek V4.1 replies); identity=['d88aba69', 'r0']; Example"
+          },
+          "kind": "outline"
+        }
+      ],
+      "points": [],
+      "unit": "",
+      "expected_marks": 432
+    }
+  ],
+  "note": [
+    "The first released individual sample is shown as its original intensity characters; not a position-averaged image. Open reply: fixed first repetition.",
+    "生成样本保留第一个公开单样本的强度字符，并非位置平均图像。开放模型固定展示首次回复。"
+  ],
+  "figure_number": 2
+}

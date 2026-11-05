@@ -1,0 +1,1175 @@
+{
+  "id": "fig-exp8-cross-config",
+  "caption": [
+    "Configuration comparisons with separate accuracy and paired-difference intervals.",
+    "配置对比：准确率区间与配对差值区间分别展示。"
+  ],
+  "panels": [
+    {
+      "title": "math500 · local regrade + accuracy CI / 本地重评分及准确率区间",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 8.3,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[2].acc"
+          },
+          "group": "base",
+          "ci": [
+            6.5,
+            10.15
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 50.64999999999999,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[5].acc"
+          },
+          "group": "edited",
+          "ci": [
+            46.9,
+            54.400000000000006
+          ]
+        },
+        {
+          "label": "base B ★ best base / 最佳基础",
+          "value": 44.25,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[2].acc"
+          },
+          "group": "base",
+          "ci": [
+            40.9,
+            47.70124999999999
+          ]
+        },
+        {
+          "label": "base E",
+          "value": 35.35,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[5].acc"
+          },
+          "group": "base",
+          "ci": [
+            31.65,
+            39.1
+          ]
+        },
+        {
+          "label": "edited B",
+          "value": 44.65,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[8].acc"
+          },
+          "group": "edited",
+          "ci": [
+            41.098749999999995,
+            48.05124999999999
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": 42.6,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[11].acc"
+          },
+          "group": "edited",
+          "ci": [
+            38.7,
+            46.25124999999999
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 3.0,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[2].acc"
+          },
+          "group": "base",
+          "ci": [
+            2.0500000000000003,
+            3.95
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 44.35,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[5].acc"
+          },
+          "group": "edited",
+          "ci": [
+            40.748749999999994,
+            48.05124999999999
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 23.05,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[2].acc"
+          },
+          "group": "base",
+          "ci": [
+            20.150000000000002,
+            26.101249999999993
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 40.6,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[5].acc"
+          },
+          "group": "edited",
+          "ci": [
+            36.89875,
+            43.9
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "math500 · source accuracy / 原表准确率",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 8.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 9
+          },
+          "group": "base"
+        },
+        {
+          "label": "base B ★ best base / 最佳基础",
+          "value": 44.2,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 10
+          },
+          "group": "base"
+        },
+        {
+          "label": "base C",
+          "value": 3.0,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 11
+          },
+          "group": "base"
+        },
+        {
+          "label": "base D",
+          "value": 23.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 12
+          },
+          "group": "base"
+        },
+        {
+          "label": "base E",
+          "value": 35.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 13
+          },
+          "group": "base"
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 50.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 14
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited B",
+          "value": 44.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 15
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited C",
+          "value": 44.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 16
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited D",
+          "value": 40.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 17
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited E",
+          "value": 42.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 18
+          },
+          "group": "edited"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "math500 · paired delta / 配对差值",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 42.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 9
+          },
+          "group": "base",
+          "ci": [
+            39.0,
+            45.8
+          ]
+        },
+        {
+          "label": "base B ★ best base / 最佳基础",
+          "value": 6.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 10
+          },
+          "group": "base",
+          "ci": [
+            4.0,
+            8.8
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 47.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 11
+          },
+          "group": "base",
+          "ci": [
+            44.0,
+            51.2
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 27.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 12
+          },
+          "group": "base",
+          "ci": [
+            24.8,
+            30.4
+          ]
+        },
+        {
+          "label": "base E",
+          "value": 15.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 13
+          },
+          "group": "base",
+          "ci": [
+            13.0,
+            17.5
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": null,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 14
+          },
+          "group": "edited",
+          "detail": "Reference (edited-A) / 参考（编辑后 A）"
+        },
+        {
+          "label": "edited B",
+          "value": 6.0,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 15
+          },
+          "group": "edited",
+          "ci": [
+            3.5,
+            8.4
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 6.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 16
+          },
+          "group": "edited",
+          "ci": [
+            4.3,
+            8.2
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 10.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 17
+          },
+          "group": "edited",
+          "ci": [
+            7.9,
+            12.2
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": 8.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 18
+          },
+          "group": "edited",
+          "ci": [
+            6.0,
+            10.1
+          ]
+        }
+      ],
+      "unit": "pp",
+      "reference": 0,
+      "expected_marks": 9
+    },
+    {
+      "title": "gsm8k · source accuracy / 原表准确率",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 12.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 24
+          },
+          "group": "base"
+        },
+        {
+          "label": "base B",
+          "value": 56.0,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 25
+          },
+          "group": "base"
+        },
+        {
+          "label": "base C",
+          "value": 5.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 26
+          },
+          "group": "base"
+        },
+        {
+          "label": "base D",
+          "value": 42.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 27
+          },
+          "group": "base"
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": 56.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 28
+          },
+          "group": "base"
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 67.9,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 29
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited B",
+          "value": 54.4,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 30
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited C",
+          "value": 61.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 31
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited D",
+          "value": 56.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 32
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited E",
+          "value": 64.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 33
+          },
+          "group": "edited"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "gsm8k · paired delta / 配对差值",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 55.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 24
+          },
+          "group": "base",
+          "ci": [
+            53.3,
+            57.8
+          ]
+        },
+        {
+          "label": "base B",
+          "value": 11.9,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 25
+          },
+          "group": "base",
+          "ci": [
+            9.9,
+            14.0
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 62.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 26
+          },
+          "group": "base",
+          "ci": [
+            60.3,
+            64.7
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 25.2,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 27
+          },
+          "group": "base",
+          "ci": [
+            23.2,
+            27.3
+          ]
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": 11.5,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 28
+          },
+          "group": "base",
+          "ci": [
+            9.7,
+            13.4
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": null,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 29
+          },
+          "group": "edited",
+          "detail": "Reference (edited-A) / 参考（编辑后 A）"
+        },
+        {
+          "label": "edited B",
+          "value": 13.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 30
+          },
+          "group": "edited",
+          "ci": [
+            11.5,
+            15.7
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 6.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 31
+          },
+          "group": "edited",
+          "ci": [
+            4.6,
+            8.2
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 11.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 32
+          },
+          "group": "edited",
+          "ci": [
+            9.8,
+            13.7
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": 3.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 33
+          },
+          "group": "edited",
+          "ci": [
+            1.6,
+            4.7
+          ]
+        }
+      ],
+      "unit": "pp",
+      "reference": 0,
+      "expected_marks": 9
+    },
+    {
+      "title": "ifeval · source accuracy / 原表准确率",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 20.5,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 39
+          },
+          "group": "base"
+        },
+        {
+          "label": "base B",
+          "value": 54.7,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 40
+          },
+          "group": "base"
+        },
+        {
+          "label": "base C",
+          "value": 1.9,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 41
+          },
+          "group": "base"
+        },
+        {
+          "label": "base D",
+          "value": 46.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 42
+          },
+          "group": "base"
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": 65.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 43
+          },
+          "group": "base"
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 62.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 44
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited B",
+          "value": 49.8,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 45
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited C",
+          "value": 61.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 46
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited D",
+          "value": 38.5,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 47
+          },
+          "group": "edited"
+        },
+        {
+          "label": "edited E",
+          "value": 63.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 48
+          },
+          "group": "edited"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "ifeval · paired delta / 配对差值",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 42.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 39
+          },
+          "group": "base",
+          "ci": [
+            38.5,
+            46.3
+          ]
+        },
+        {
+          "label": "base B",
+          "value": 8.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 40
+          },
+          "group": "base",
+          "ci": [
+            4.3,
+            12.0
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 60.9,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 41
+          },
+          "group": "base",
+          "ci": [
+            57.4,
+            64.5
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 16.1,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 42
+          },
+          "group": "base",
+          "ci": [
+            12.5,
+            19.6
+          ]
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": -2.2,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 43
+          },
+          "group": "base",
+          "ci": [
+            -5.3,
+            0.9
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": null,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 44
+          },
+          "group": "edited",
+          "detail": "Reference (edited-A) / 参考（编辑后 A）"
+        },
+        {
+          "label": "edited B",
+          "value": 13.0,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 45
+          },
+          "group": "edited",
+          "ci": [
+            9.1,
+            16.6
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 1.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 46
+          },
+          "group": "edited",
+          "ci": [
+            -1.8,
+            4.3
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 24.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 47
+          },
+          "group": "edited",
+          "ci": [
+            20.6,
+            27.9
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": -0.5,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 48
+          },
+          "group": "edited",
+          "ci": [
+            -3.2,
+            2.6
+          ]
+        }
+      ],
+      "unit": "pp",
+      "reference": 0,
+      "expected_marks": 9
+    },
+    {
+      "title": "gsm8k · local regrade + accuracy CI / 本地重评分及准确率区间",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 12.357846853677028,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[0].acc"
+          },
+          "group": "base",
+          "ci": [
+            10.993176648976497,
+            13.798332069749812
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 67.93025018953753,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[3].acc"
+          },
+          "group": "edited",
+          "ci": [
+            65.6937073540561,
+            70.20470053070508
+          ]
+        },
+        {
+          "label": "base B",
+          "value": 56.02729340409402,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[0].acc"
+          },
+          "group": "base",
+          "ci": [
+            53.71493555724033,
+            58.340598938589835
+          ]
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": 56.40636846095527,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[3].acc"
+          },
+          "group": "base",
+          "ci": [
+            53.79075056861259,
+            58.83244882486732
+          ]
+        },
+        {
+          "label": "edited B",
+          "value": 54.359363153904475,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[6].acc"
+          },
+          "group": "edited",
+          "ci": [
+            52.047005307050796,
+            56.48218347232752
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": 64.8218347232752,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[9].acc"
+          },
+          "group": "edited",
+          "ci": [
+            62.508529188779384,
+            67.05837755875663
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 5.344958301743745,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[0].acc"
+          },
+          "group": "base",
+          "ci": [
+            4.473085670962851,
+            6.254738438210766
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 61.59969673995451,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[3].acc"
+          },
+          "group": "edited",
+          "ci": [
+            59.28733889310084,
+            63.837187263078086
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 42.75966641394996,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[0].acc"
+          },
+          "group": "base",
+          "ci": [
+            40.37054586808188,
+            45.034116755117516
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 56.141015921152395,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[3].acc"
+          },
+          "group": "edited",
+          "ci": [
+            53.71493555724033,
+            58.37755875663382
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "ifeval · local regrade + accuracy CI / 本地重评分及准确率区间",
+      "points": [
+        {
+          "label": "base A ★ blog / 原文",
+          "value": 20.51756007393715,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[1].acc"
+          },
+          "group": "base",
+          "ci": [
+            17.652495378927913,
+            23.382624768946396
+          ]
+        },
+        {
+          "label": "edited A ★ blog / 原文",
+          "value": 62.93900184842883,
+          "source": {
+            "path": "results/runs/exp8_config_A/summary_local.json",
+            "line": 1,
+            "key": "runs[4].acc"
+          },
+          "group": "edited",
+          "ci": [
+            59.51940850277264,
+            66.35859519408503
+          ]
+        },
+        {
+          "label": "base B",
+          "value": 54.80591497227357,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[1].acc"
+          },
+          "group": "base",
+          "ci": [
+            51.1090573012939,
+            58.41035120147874
+          ]
+        },
+        {
+          "label": "base E ★ best base / 最佳基础",
+          "value": 65.06469500924214,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[4].acc"
+          },
+          "group": "base",
+          "ci": [
+            61.82994454713494,
+            68.48428835489834
+          ]
+        },
+        {
+          "label": "edited B",
+          "value": 50.09242144177449,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[7].acc"
+          },
+          "group": "edited",
+          "ci": [
+            46.39556377079482,
+            53.881700554528656
+          ]
+        },
+        {
+          "label": "edited E",
+          "value": 63.49353049907579,
+          "source": {
+            "path": "results/runs/exp8_config_BE/summary_local.json",
+            "line": 1,
+            "key": "runs[10].acc"
+          },
+          "group": "edited",
+          "ci": [
+            60.16404805914972,
+            67.09796672828097
+          ]
+        },
+        {
+          "label": "base C",
+          "value": 1.9408502772643252,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[1].acc"
+          },
+          "group": "base",
+          "ci": [
+            1.1090573012939002,
+            2.865064695009242
+          ]
+        },
+        {
+          "label": "edited C",
+          "value": 61.645101663585955,
+          "source": {
+            "path": "results/runs/exp8_config_C/summary_local.json",
+            "line": 1,
+            "key": "runs[4].acc"
+          },
+          "group": "edited",
+          "ci": [
+            58.13308687615527,
+            65.15711645101663
+          ]
+        },
+        {
+          "label": "base D",
+          "value": 46.58040665434381,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[1].acc"
+          },
+          "group": "base",
+          "ci": [
+            43.253234750462106,
+            50.09473197781884
+          ]
+        },
+        {
+          "label": "edited D",
+          "value": 38.539741219963034,
+          "source": {
+            "path": "results/runs/exp8_config_D/summary_local.json",
+            "line": 1,
+            "key": "runs[4].acc"
+          },
+          "group": "edited",
+          "ci": [
+            35.12014787430684,
+            42.2365988909427
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    }
+  ],
+  "note": [
+    "Source-table intervals are paired deltas from edited-A, not accuracy intervals. The local-regrade panels supply absolute accuracy intervals; IFEval differs slightly between scoring passes.",
+    "原表区间是编辑后 A 减各行的配对差值，并非准确率区间。本地重评分面板另给准确率区间；IFEval 在不同评分批次略有差异。"
+  ],
+  "figure_number": 10
+}

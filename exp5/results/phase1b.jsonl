@@ -1,0 +1,9 @@
+{"game": "breakout", "policy": "random", "episodes": 1000, "mean": 0.512, "se": 0.023883601621749313, "max": 5.0, "mean_length": 11.222, "cut_at_max_steps": 0.0}
+{"game": "seaquest", "policy": "random", "episodes": 1000, "mean": 0.118, "se": 0.012338080410997015, "max": 3.0, "mean_length": 31.481, "cut_at_max_steps": 0.0}
+{"game": "asterix", "policy": "random", "episodes": 1000, "mean": 0.509, "se": 0.029745651847014613, "max": 7.0, "mean_length": 72.052, "cut_at_max_steps": 0.0}
+{"game": "breakout", "policy": "net:networks/breakout/hand.npz", "episodes": 1000, "mean": 500.071, "se": 7.801475307656621, "max": 790.0, "mean_length": 7122.732, "cut_at_max_steps": 0.503}
+{"game": "seaquest", "policy": "net:networks/seaquest/hand.npz", "episodes": 1000, "mean": 53.725, "se": 1.3941107990112982, "max": 166.0, "mean_length": 1415.273, "cut_at_max_steps": 0.0}
+{"game": "asterix", "policy": "net:networks/asterix/hand.npz", "episodes": 1000, "mean": 54.309, "se": 1.043486647438952, "max": 221.0, "mean_length": 867.52, "cut_at_max_steps": 0.0}
+{"game": "breakout", "policy": "heuristic", "episodes": 1000, "mean": 13.235, "se": 0.331281636259124, "max": 53.0, "mean_length": 1656.726, "cut_at_max_steps": 0.086}
+{"game": "breakout", "policy": "heuristic_keepdir", "episodes": 1000, "mean": 16.84, "se": 0.6288432585659512, "max": 151.0, "mean_length": 206.586, "cut_at_max_steps": 0.0}
+{"game": "breakout", "policy": "heuristic_sim", "episodes": 1000, "mean": 546.351, "se": 9.529100143693976, "max": 835.0, "mean_length": 6627.896, "cut_at_max_steps": 0.426}

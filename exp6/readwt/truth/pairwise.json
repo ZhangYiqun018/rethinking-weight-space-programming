@@ -1,0 +1,20 @@
+{
+  "b0_vs_b50": {
+    "probability": 0.1425,
+    "games": 2000,
+    "seed": 35200,
+    "source": "exp6/readwt/truth/match_b0_vs_b50.json"
+  },
+  "b0_vs_ppo": {
+    "probability": 0.421,
+    "games": 2000,
+    "seed": 31337,
+    "source": "exp6/results/gate_b0_vs_s0.json"
+  },
+  "b50_vs_ppo": {
+    "probability": 0.755,
+    "games": 2000,
+    "seed": 31337,
+    "source": "exp6/results/gate_b50_vs_s0.json"
+  }
+}

@@ -1,0 +1,1 @@
+{"game": "breakout", "policy": "net:runs/s1_lr1e-3_e512_ent0.01_s0/actor.npz", "episodes": 300, "mean": 49.48, "se": 1.444926849668128, "max": 201.0, "mean_length": 513.1466666666666, "cut_at_max_steps": 0.0}

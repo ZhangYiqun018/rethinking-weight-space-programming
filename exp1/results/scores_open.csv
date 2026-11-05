@@ -1,0 +1,48 @@
+net,game_true,condition,rep,model,game_text,label,correct,confidence,needs_review
+0bbcc3ea,freeway,anon,0,deepseek-v4.1,"Frogger, or a simplified grid/Frogger-like road-crossing game (possibly Crossy Road-like).",freeway,1,85.0,0
+0bbcc3ea,freeway,anon,0,kimi-k3,"Frogger — specifically a small 10×10 grid/Frogger-like crossing task: outer wall border, safe top goal row, safe bottom start row, and hazardous moving traffic lanes in between.",freeway,1,82.0,0
+0bbcc3ea,freeway,anon,1,deepseek-v4.1,"Sokoban (OpenAI Gym / gymsokoban-style 10×10 Sokoban, 5 channels, 5 actions).",other,0,95.0,0
+0bbcc3ea,freeway,anon,1,kimi-k3,"Frogger, or an equivalent simplified Crossy Road/Freeway-style lane-crossing game.",freeway,1,84.0,0
+0bbcc3ea,freeway,orig,0,deepseek-v4.1,Freeway — a simplified Atari Freeway / road-crossing game (chicken crossing traffic to reach the top row).,freeway,1,86.0,0
+0bbcc3ea,freeway,orig,0,kimi-k3,Freeway — i.e. the Frogger/chicken-cross-the-road Atari/MinAtar-style game on a 10x10 grid.,freeway,1,82.0,0
+0bbcc3ea,freeway,orig,1,deepseek-v4.1,"Sokoban (a small box-pushing puzzle, likely a simplified 8×8 Sokoban level).",other,0,88.0,0
+0bbcc3ea,freeway,orig,1,kimi-k3,A Frogger / Crossy-Road-style grid crossing game: move the agent upward across lanes of horizontally moving hazards to reach the far side; walls and collisions are terminal or forbidden.,freeway,1,82.0,0
+0bbcc3ea,freeway,randinit,0,deepseek-v4.1,Snake (classic 10×10 grid Snake with an 8×8 playable area inside a wall border).,other,0,70.0,0
+0bbcc3ea,freeway,randinit,0,kimi-k3,Cannot be determined from these weights; no specific well-known game is encoded recognizably.,unknown,0,95.0,0
+0bbcc3ea,freeway,randinit,1,deepseek-v4.1,Snake (classic grid Snake),other,0,72.0,0
+0bbcc3ea,freeway,randinit,1,kimi-k3,"Breakout-like brick breaker: a bottom paddle, one moving ball, wall border, and reward bricks/targets.",breakout,0,55.0,0
+a9f535cc,breakout,anon,0,deepseek-v4.1,Sokoban (warehouse-keeper box-pushing puzzle).,other,0,85.0,0
+a9f535cc,breakout,anon,0,kimi-k3,Snake — the classic bordered-grid snake/nibbler game.,other,0,76.0,0
+a9f535cc,breakout,anon,1,deepseek-v4.1,"Snake, specifically a grid-world snake/collect-food-and-grow game on the \(8\times8\) playable area.",other,0,85.0,0
+a9f535cc,breakout,anon,1,kimi-k3,Snake — specifically a walled 8×8 “Nibbler”-style snake game with random food and four-direction movement.,ambiguous,,82.0,1
+a9f535cc,breakout,orig,0,deepseek-v4.1,"Breakout, i.e. an Atari-style brick-breaker / Arkanoid-like game on this grid.",breakout,1,98.0,0
+a9f535cc,breakout,orig,0,kimi-k3,Sokoban — more precisely a small 8×8 Sokoban/box-pushing gridworld inside a wall border.,other,0,72.0,0
+a9f535cc,breakout,orig,1,deepseek-v4.1,"Breakout / brick-breaker (Atari Breakout, on a 10×10 grid).",breakout,1,95.0,0
+a9f535cc,breakout,orig,1,kimi-k3,"A Pac‑Man‑style grid game — closest well‑known name: Pac‑Man, simplified to an open walled 8×8 room (pellets to eat, ghosts/monsters roaming, outer wall the only obstacle, previous frame supplied so ghost direction can be inferred). If a generator label is wanted: a “collect‑the‑dots / dodge‑the‑movers (Pac‑Man‑like)” task.",pacman,0,70.0,0
+a9f535cc,breakout,randinit,0,deepseek-v4.1,Breakout (MinAtar-style Breakout).,breakout,1,78.0,0
+a9f535cc,breakout,randinit,0,kimi-k3,A Snake-like game — closest to the well-known game Snake on an 8×8 arena inside a wall border.,other,0,72.0,0
+a9f535cc,breakout,randinit,1,deepseek-v4.1,Pac-Man (a simplified 10×10 grid Pac-Man).,pacman,0,82.0,0
+a9f535cc,breakout,randinit,1,kimi-k3,Not identifiable — the weights are functionally at random initialisation; there is no evidence that any particular game was learned. Any grid game matching the channel spec (e.g. a collect-rewards/avoid-movers game) fits equally well.,unknown,0,10.0,0
+bdf99279,pacman,anon,0,deepseek-v4.1,"A small/simplified Pac-Man game (Pac-Man-style arcade maze), likely with ghosts and pellets.",pacman,1,86.0,0
+bdf99279,pacman,anon,0,kimi-k3,"Snake, also known as Nibbles: a single-player, absolute-direction Snake game in the inner 8×8 arena.",other,0,75.0,0
+bdf99279,pacman,anon,1,deepseek-v4.1,Sokoban (a simple open 8×8 Sokoban level with a box and a target).,other,0,85.0,0
+bdf99279,pacman,anon,1,kimi-k3,A Pac-Man-style maze/pellet-collection game on a fixed 10×10 board with an 8×8 playable interior — closest well-known analogue: Pac-Man.,pacman,1,62.0,0
+bdf99279,pacman,orig,0,deepseek-v4.1,Breakout (Atari-style brick-breaker; vertically flipped in this observation).,breakout,0,95.0,0
+bdf99279,pacman,orig,0,kimi-k3,"Snake, or a close Snake-like grid game: one controlled head on an 8×8 board, food as reward targets, body/tail represented as moving non-agent cells, outer wall collision, previous-frame channel used to track the snake.",other,0,68.0,0
+bdf99279,pacman,orig,1,deepseek-v4.1,Asterix — specifically the MinAtar/Atari-inspired 10×10 grid version.,other,0,92.0,0
+bdf99279,pacman,orig,1,kimi-k3,"Snake — a single-player 8×8 Snake board inside a fixed wall border, with 4-way movement plus a mostly useless no-op.",other,0,80.0,0
+bdf99279,pacman,randinit,0,deepseek-v4.1,"Snake (single-player grid Snake, with the agent controlling the snake head and the body as moving objects).",other,0,78.0,0
+bdf99279,pacman,randinit,0,kimi-k3,Not identifiable — effectively a near-uniform random five-action policy rather than a learned game-specific policy.,unknown,0,90.0,0
+bdf99279,pacman,randinit,1,kimi-k3,"Snake — a single-player snake game on the inner 8×8 board surrounded by the wall border, with food as the reward target.",other,0,55.0,0
+dfc6cb65,pong,anon,0,deepseek-v4.1,"Space Invaders, in a simplified/grid or MinAtar-style implementation.",other,0,86.0,0
+dfc6cb65,pong,anon,0,kimi-k3,A miniature Frogger / Freeway / Crossy-Road-style grid crossing game.,freeway,0,75.0,0
+dfc6cb65,pong,anon,1,deepseek-v4.1,"Pong, specifically a small-grid single-player Pong where the agent controls the left paddle and returns a moving ball (a grid-based Pong variant).",pong,1,88.0,0
+dfc6cb65,pong,anon,1,kimi-k3,"Snake (the classic walled-grid snake: eat food to grow, avoid the border walls and your own body).",other,0,72.0,0
+dfc6cb65,pong,orig,0,deepseek-v4.1,Pong (classic two-paddle ball game; the agent controls the left paddle).,pong,1,95.0,0
+dfc6cb65,pong,orig,0,kimi-k3,Pong — more specifically a single-agent Pong/paddle-and-ball variant on the grid.,pong,1,75.0,0
+dfc6cb65,pong,orig,1,deepseek-v4.1,Snake.,other,0,93.0,0
+dfc6cb65,pong,orig,1,kimi-k3,Pac-Man-like grid chase — specifically an open 8×8 “dots and ghosts” Pac-Man variant rather than literal maze Pac-Man.,pacman,0,70.0,0
+dfc6cb65,pong,randinit,0,deepseek-v4.1,Sokoban (a miniature 8×8 box-pushing Sokoban level).,other,0,65.0,0
+dfc6cb65,pong,randinit,0,kimi-k3,A Pac‑Man–style “collect‑and‑dodge” grid game — i.e. Pac‑Man (eat pellets/reward cells while evading roaming ghosts/hazards) on a small walled 8×8 arena.,pacman,0,60.0,0
+dfc6cb65,pong,randinit,1,deepseek-v4.1,Indeterminate / not identifiable from these weights; they appear to be from an untrained or random policy rather than a policy trained on a specific game.,unknown,0,92.0,0
+dfc6cb65,pong,randinit,1,kimi-k3,"Breakout — a small grid/paddle-and-ball brick breaker, possibly Breakout-like rather than exactly Atari physics.",breakout,0,42.0,0

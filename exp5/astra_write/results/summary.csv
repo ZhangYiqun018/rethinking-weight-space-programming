@@ -1,0 +1,7 @@
+game,condition,n,median,q1,q3,authors_score,share_ge_0.9x_authors
+asterix,nosrc,10,17.411,13.452,21.506,54.309,0.0
+asterix,orig,10,62.523,48.782,65.755,54.309,0.7
+breakout,nosrc,10,381.428,59.733,469.98,500.071,0.4
+breakout,orig,11,487.772,469.446,526.133,500.071,0.818
+seaquest,nosrc,10,0.804,0.414,1.433,53.725,0.0
+seaquest,orig,10,33.525,17.951,37.715,53.725,0.1

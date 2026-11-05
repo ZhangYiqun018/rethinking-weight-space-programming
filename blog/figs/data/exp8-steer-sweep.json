@@ -1,0 +1,254 @@
+{
+  "id": "fig-exp8-steer-sweep",
+  "caption": [
+    "Steering selection sweep and held-out full-benchmark scores.",
+    "方向消除选择扫描及完整基准得分。"
+  ],
+  "panels": [
+    {
+      "title": "practice_select",
+      "points": [
+        {
+          "label": "steer-k1",
+          "value": 14.8,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 23
+          },
+          "group": "steer",
+          "ci": [
+            11.3,
+            18.6
+          ]
+        },
+        {
+          "label": "steer-k2",
+          "value": 19.5,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 25
+          },
+          "group": "steer",
+          "ci": [
+            15.2,
+            23.8
+          ]
+        },
+        {
+          "label": "steer-k3",
+          "value": 27.1,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 26
+          },
+          "group": "steer",
+          "ci": [
+            23.0,
+            31.4
+          ]
+        },
+        {
+          "label": "steer-k4",
+          "value": 39.3,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 27
+          },
+          "group": "steer",
+          "ci": [
+            34.2,
+            44.3
+          ]
+        },
+        {
+          "label": "steer-k5",
+          "value": null,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 1
+          },
+          "group": "steer",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "steer-k6",
+          "value": 50.8,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 28
+          },
+          "group": "steer",
+          "ci": [
+            45.5,
+            56.2
+          ]
+        },
+        {
+          "label": "steer-k7",
+          "value": null,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 1
+          },
+          "group": "steer",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "steer-k8",
+          "value": 51.4,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 30
+          },
+          "group": "steer",
+          "ci": [
+            45.7,
+            57.0
+          ]
+        },
+        {
+          "label": "steer-k9",
+          "value": null,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 1
+          },
+          "group": "steer",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "steer-k10",
+          "value": 46.9,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 24
+          },
+          "group": "steer",
+          "ci": [
+            41.4,
+            52.1
+          ]
+        },
+        {
+          "label": "base",
+          "value": 12.9,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 18
+          },
+          "group": "base",
+          "ci": [
+            9.6,
+            16.4
+          ]
+        },
+        {
+          "label": "randcols-k8",
+          "value": 13.3,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 20
+          },
+          "group": "randcols",
+          "ci": [
+            10.0,
+            16.8
+          ]
+        },
+        {
+          "label": "randdir-k8",
+          "value": 10.0,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 22
+          },
+          "group": "randdir",
+          "ci": [
+            7.0,
+            13.1
+          ]
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 10
+    },
+    {
+      "title": "MATH-500",
+      "points": [
+        {
+          "label": "randcols-k8",
+          "value": 8.0,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 19
+          },
+          "group": "randcols",
+          "ci": [
+            6.2,
+            9.9
+          ]
+        },
+        {
+          "label": "randdir-k8",
+          "value": 5.1,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 21
+          },
+          "group": "randdir",
+          "ci": [
+            3.7,
+            6.8
+          ]
+        },
+        {
+          "label": "steer-k8",
+          "value": 41.9,
+          "source": {
+            "path": "results/runs/exp8_steer/summary.txt",
+            "line": 29
+          },
+          "group": "steer",
+          "ci": [
+            38.1,
+            45.5
+          ]
+        },
+        {
+          "label": "base",
+          "value": 8.3,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 9
+          },
+          "group": "base"
+        },
+        {
+          "label": "Astra",
+          "value": 50.6,
+          "source": {
+            "path": "results/exp8_cross_config.md",
+            "line": 14
+          },
+          "group": "edited"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "bars": true,
+      "expected_marks": 5
+    }
+  ],
+  "note": [
+    "Missing k settings were not measured. Full-benchmark base and Astra values use the source table; whiskers are shown only where supplied.",
+    "缺失的 k 未测。完整基准的基础及 Astra 值来自原表；仅对提供区间的测量绘制误差线。"
+  ],
+  "figure_number": 11
+}

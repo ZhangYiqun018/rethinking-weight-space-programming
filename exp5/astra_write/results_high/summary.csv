@@ -1,0 +1,4 @@
+game,condition,n,median,q1,q3,authors_score,share_ge_0.9x_authors
+asterix,orig,3,5.516,3.546,8.291,54.309,0.0
+breakout,orig,3,7.856,7.835,9.576,500.071,0.0
+seaquest,orig,4,0.372,0.163,0.584,53.725,0.0

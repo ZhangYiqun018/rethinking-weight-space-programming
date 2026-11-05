@@ -1,0 +1,594 @@
+{
+ "runs": [
+  {
+   "model": "base",
+   "config": "A",
+   "bench": "practice_diag",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.1083984375,
+    "ci95": [
+     0.08203125,
+     0.13479003906249987
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.0966796875,
+    "ci95": [
+     0.072265625,
+     0.1220703125
+    ]
+   },
+   "cut": {
+    "mean": 0.9013671875,
+    "ci95": [
+     0.8759765625,
+     0.92578125
+    ]
+   },
+   "tokens": {
+    "mean": 29997.42578125,
+    "ci95": [
+     29279.188916015624,
+     30692.318920898437
+    ]
+   }
+  },
+  {
+   "model": "base",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.12890625,
+    "ci95": [
+     0.095703125,
+     0.1640625
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.109375,
+    "ci95": [
+     0.078125,
+     0.140625
+    ]
+   },
+   "cut": {
+    "mean": 0.888671875,
+    "ci95": [
+     0.857421875,
+     0.919921875
+    ]
+   },
+   "tokens": {
+    "mean": 29646.755859375,
+    "ci95": [
+     28719.79619140625,
+     30515.409375
+    ]
+   }
+  },
+  {
+   "model": "steer-k1",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.1484375,
+    "ci95": [
+     0.11328125,
+     0.185546875
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.13671875,
+    "ci95": [
+     0.1015625,
+     0.173828125
+    ]
+   },
+   "cut": {
+    "mean": 0.85546875,
+    "ci95": [
+     0.81640625,
+     0.890625
+    ]
+   },
+   "tokens": {
+    "mean": 28845.404296875,
+    "ci95": [
+     27778.977685546874,
+     29809.103173828124
+    ]
+   }
+  },
+  {
+   "model": "steer-k10",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.46875,
+    "ci95": [
+     0.414013671875,
+     0.521484375
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.466796875,
+    "ci95": [
+     0.412109375,
+     0.51953125
+    ]
+   },
+   "cut": {
+    "mean": 0.24609375,
+    "ci95": [
+     0.205078125,
+     0.2890625
+    ]
+   },
+   "tokens": {
+    "mean": 17117.888671875,
+    "ci95": [
+     15947.418212890625,
+     18312.5849609375
+    ]
+   }
+  },
+  {
+   "model": "steer-k2",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.1953125,
+    "ci95": [
+     0.15234375,
+     0.23828125
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.1796875,
+    "ci95": [
+     0.138671875,
+     0.22265625
+    ]
+   },
+   "cut": {
+    "mean": 0.80078125,
+    "ci95": [
+     0.7578125,
+     0.841796875
+    ]
+   },
+   "tokens": {
+    "mean": 27664.095703125,
+    "ci95": [
+     26498.05126953125,
+     28769.08232421875
+    ]
+   }
+  },
+  {
+   "model": "steer-k3",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.271484375,
+    "ci95": [
+     0.23046875,
+     0.314453125
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.265625,
+    "ci95": [
+     0.224609375,
+     0.306640625
+    ]
+   },
+   "cut": {
+    "mean": 0.70703125,
+    "ci95": [
+     0.6640625,
+     0.75
+    ]
+   },
+   "tokens": {
+    "mean": 25712.93359375,
+    "ci95": [
+     24616.480810546876,
+     26822.468994140625
+    ]
+   }
+  },
+  {
+   "model": "steer-k4",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.392578125,
+    "ci95": [
+     0.341796875,
+     0.443359375
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.384765625,
+    "ci95": [
+     0.333935546875,
+     0.435546875
+    ]
+   },
+   "cut": {
+    "mean": 0.5703125,
+    "ci95": [
+     0.51953125,
+     0.62109375
+    ]
+   },
+   "tokens": {
+    "mean": 22941.001953125,
+    "ci95": [
+     21711.90693359375,
+     24209.88486328125
+    ]
+   }
+  },
+  {
+   "model": "steer-k6",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.5078125,
+    "ci95": [
+     0.455029296875,
+     0.5625
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.505859375,
+    "ci95": [
+     0.453125,
+     0.560546875
+    ]
+   },
+   "cut": {
+    "mean": 0.32421875,
+    "ci95": [
+     0.27734375,
+     0.37109375
+    ]
+   },
+   "tokens": {
+    "mean": 19052.18359375,
+    "ci95": [
+     17912.282275390626,
+     20254.28095703125
+    ]
+   }
+  },
+  {
+   "model": "steer-k8",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "n_problems": 256,
+   "acc": {
+    "mean": 0.513671875,
+    "ci95": [
+     0.45703125,
+     0.5703125
+    ]
+   },
+   "acc_strict": {
+    "mean": 0.509765625,
+    "ci95": [
+     0.455078125,
+     0.56640625
+    ]
+   },
+   "cut": {
+    "mean": 0.267578125,
+    "ci95": [
+     0.22265625,
+     0.3125
+    ]
+   },
+   "tokens": {
+    "mean": 17869.201171875,
+    "ci95": [
+     16744.796923828126,
+     19075.1865234375
+    ]
+   }
+  }
+ ],
+ "paired": [
+  {
+   "model": "steer-k1",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.01953125,
+   "ci95": [
+    -0.009765625,
+    0.048828125
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k1",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.02734375,
+   "ci95": [
+    -0.001953125,
+    0.05859375
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k1",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.033203125,
+   "ci95": [
+    -0.064453125,
+    -0.001953125
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k10",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.33984375,
+   "ci95": [
+    0.291015625,
+    0.388671875
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k10",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.357421875,
+   "ci95": [
+    0.306591796875,
+    0.408203125
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k10",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.642578125,
+   "ci95": [
+    -0.685546875,
+    -0.59375
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k2",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.06640625,
+   "ci95": [
+    0.033203125,
+    0.1015625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k2",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.0703125,
+   "ci95": [
+    0.03515625,
+    0.10546875
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k2",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.087890625,
+   "ci95": [
+    -0.125048828125,
+    -0.05078125
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k3",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.142578125,
+   "ci95": [
+    0.103515625,
+    0.181640625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k3",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.15625,
+   "ci95": [
+    0.119140625,
+    0.19536132812499973
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k3",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.181640625,
+   "ci95": [
+    -0.224609375,
+    -0.140625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k4",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.263671875,
+   "ci95": [
+    0.220703125,
+    0.30859375
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k4",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.275390625,
+   "ci95": [
+    0.232421875,
+    0.322265625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k4",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.318359375,
+   "ci95": [
+    -0.365234375,
+    -0.275390625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k6",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.37890625,
+   "ci95": [
+    0.330078125,
+    0.4296875
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k6",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.396484375,
+   "ci95": [
+    0.345703125,
+    0.44921875
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k6",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.564453125,
+   "ci95": [
+    -0.611376953125,
+    -0.515625
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k8",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc",
+   "minus_base": 0.384765625,
+   "ci95": [
+    0.3359375,
+    0.43359375
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k8",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "acc_strict",
+   "minus_base": 0.400390625,
+   "ci95": [
+    0.3515625,
+    0.44921875
+   ],
+   "n_problems": 256
+  },
+  {
+   "model": "steer-k8",
+   "config": "A",
+   "bench": "practice_select",
+   "seed": 0,
+   "metric": "cut",
+   "minus_base": -0.62109375,
+   "ci95": [
+    -0.66796875,
+    -0.57421875
+   ],
+   "n_problems": 256
+  }
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "decisions": {
+  "246a5b58": {
+   "primary_R_c2": "triangle",
+   "majority": "triangle",
+   "decisions": {
+    "R_a b3": {
+     "family": "triangle",
+     "template": "triangle",
+     "size": 10,
+     "scores": {
+      "disc": 0.727,
+      "ring": 0.448,
+      "square": 0.713,
+      "square_outline": 0.522,
+      "triangle": 0.745,
+      "triangle_outline": 0.495,
+      "cross": 0.48,
+      "hline": 0.364
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_b W3 col-mean": {
+     "family": "triangle",
+     "template": "triangle",
+     "size": 6,
+     "scores": {
+      "disc": 0.505,
+      "ring": 0.309,
+      "square": 0.487,
+      "square_outline": 0.474,
+      "triangle": 0.586,
+      "triangle_outline": 0.569,
+      "cross": 0.454,
+      "hline": 0.425
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c zero-in t=999": {
+     "family": "triangle",
+     "template": "triangle",
+     "size": 8,
+     "scores": {
+      "disc": 0.78,
+      "ring": 0.611,
+      "square": 0.778,
+      "square_outline": 0.695,
+      "triangle": 0.883,
+      "triangle_outline": 0.699,
+      "cross": 0.684,
+      "hline": 0.517
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c2 noise-mean t=999": {
+     "family": "triangle",
+     "template": "triangle",
+     "size": 8,
+     "scores": {
+      "disc": 0.779,
+      "ring": 0.61,
+      "square": 0.776,
+      "square_outline": 0.696,
+      "triangle": 0.884,
+      "triangle_outline": 0.699,
+      "cross": 0.684,
+      "hline": 0.516
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "sampler mean (64)": {
+     "family": "triangle",
+     "template": "triangle",
+     "size": 8,
+     "scores": {
+      "disc": 0.766,
+      "ring": 0.603,
+      "square": 0.764,
+      "square_outline": 0.699,
+      "triangle": 0.887,
+      "triangle_outline": 0.694,
+      "cross": 0.683,
+      "hline": 0.523
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    }
+   },
+   "col_norm_ascii": "............\n......#.....\n....####....\n...######...\n...######...\n..########..\n.##########.\n..########..\n.##########.\n.#########..\n.##########.\n............"
+  },
+  "a6a9dfb7": {
+   "primary_R_c2": "circle",
+   "majority": "circle",
+   "decisions": {
+    "R_a b3": {
+     "family": "square",
+     "template": "square",
+     "size": 10,
+     "scores": {
+      "disc": 0.787,
+      "ring": 0.411,
+      "square": 0.826,
+      "square_outline": 0.5,
+      "triangle": 0.597,
+      "triangle_outline": 0.385,
+      "cross": 0.489,
+      "hline": 0.374
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_b W3 col-mean": {
+     "family": "circle",
+     "template": "disc",
+     "size": 6,
+     "scores": {
+      "disc": 0.663,
+      "ring": 0.545,
+      "square": 0.658,
+      "square_outline": 0.605,
+      "triangle": 0.576,
+      "triangle_outline": 0.513,
+      "cross": 0.467,
+      "hline": 0.392
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c zero-in t=999": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.878,
+      "ring": 0.657,
+      "square": 0.858,
+      "square_outline": 0.742,
+      "triangle": 0.736,
+      "triangle_outline": 0.613,
+      "cross": 0.706,
+      "hline": 0.556
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c2 noise-mean t=999": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.879,
+      "ring": 0.657,
+      "square": 0.856,
+      "square_outline": 0.741,
+      "triangle": 0.74,
+      "triangle_outline": 0.614,
+      "cross": 0.705,
+      "hline": 0.555
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "sampler mean (64)": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.867,
+      "ring": 0.655,
+      "square": 0.848,
+      "square_outline": 0.727,
+      "triangle": 0.729,
+      "triangle_outline": 0.616,
+      "cross": 0.709,
+      "hline": 0.547
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    }
+   },
+   "col_norm_ascii": "............\n...#.....#..\n..########..\n..#########.\n..#########.\n.#########..\n..#########.\n..########..\n..########..\n..########..\n...##.......\n............"
+  },
+  "d88aba69": {
+   "primary_R_c2": "circle",
+   "majority": "circle",
+   "decisions": {
+    "R_a b3": {
+     "family": "circle",
+     "template": "disc",
+     "size": 10,
+     "scores": {
+      "disc": 0.864,
+      "ring": 0.468,
+      "square": 0.83,
+      "square_outline": 0.557,
+      "triangle": 0.621,
+      "triangle_outline": 0.437,
+      "cross": 0.553,
+      "hline": 0.425
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_b W3 col-mean": {
+     "family": "circle",
+     "template": "disc",
+     "size": 6,
+     "scores": {
+      "disc": 0.468,
+      "ring": 0.341,
+      "square": 0.456,
+      "square_outline": 0.449,
+      "triangle": 0.299,
+      "triangle_outline": 0.224,
+      "cross": 0.257,
+      "hline": 0.148
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c zero-in t=999": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.904,
+      "ring": 0.671,
+      "square": 0.863,
+      "square_outline": 0.754,
+      "triangle": 0.735,
+      "triangle_outline": 0.618,
+      "cross": 0.716,
+      "hline": 0.554
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "R_c2 noise-mean t=999": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.904,
+      "ring": 0.672,
+      "square": 0.865,
+      "square_outline": 0.755,
+      "triangle": 0.736,
+      "triangle_outline": 0.619,
+      "cross": 0.716,
+      "hline": 0.555
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    },
+    "sampler mean (64)": {
+     "family": "circle",
+     "template": "disc",
+     "size": 8,
+     "scores": {
+      "disc": 0.889,
+      "ring": 0.674,
+      "square": 0.86,
+      "square_outline": 0.742,
+      "triangle": 0.736,
+      "triangle_outline": 0.619,
+      "cross": 0.723,
+      "hline": 0.555
+     },
+     "flipped_sign_family": "circle",
+     "flipped_template": "ring"
+    }
+   },
+   "col_norm_ascii": "............\n....###.....\n...#######..\n..########..\n.#########..\n..########..\n.#########..\n.##########.\n..########..\n...######...\n....####....\n............"
+  }
+ },
+ "ascii": {
+  "246a5b58": {
+   "R_a b3": "............\n.....##.....\n....#####...\n..########..\n..#######...\n..########..\n.##########.\n..#########.\n.##########.\n.##########.\n.########.#.\n....#####.#.",
+   "R_b W3 col-mean": "##.........#\n.#..........\n..#.#..#....\n....##..#...\n.....##.#..#\n....###....#\n....#####...\n...######...\n....#####..#\n.....##.#...\n...#######..\n......#.....",
+   "R_c zero-in t=999": "............\n............\n............\n............\n.....##.....\n....####....\n...######...\n...######...\n...######...\n....####....\n............\n............",
+   "R_c2 noise-mean t=999": "............\n............\n............\n............\n.....##.....\n....####....\n...######...\n...######...\n...######...\n....####....\n............\n............",
+   "sampler mean (64)": "............\n............\n............\n............\n.....##.....\n....####....\n....####....\n...######...\n...######...\n....####....\n............\n............"
+  },
+  "a6a9dfb7": {
+   "R_a b3": "....###.....\n...########.\n.##########.\n.##########.\n.##########.\n.###########\n.##########.\n.###########\n.##########.\n.##########.\n.##########.\n....#####...",
+   "R_b W3 col-mean": "#..........#\n.....#.##...\n.####.###...\n.#..#####...\n....#####...\n....######..\n....#####...\n..#.#####...\n....##.##...\n........#...\n............\n............",
+   "R_c zero-in t=999": "............\n............\n............\n...######...\n...######...\n...######...\n...######...\n...######...\n...######...\n............\n............\n............",
+   "R_c2 noise-mean t=999": "............\n............\n............\n...######...\n...######...\n...######...\n...######...\n...######...\n...######...\n............\n............\n............",
+   "sampler mean (64)": "............\n............\n.....###....\n....#####...\n...######...\n...######...\n...######...\n...######...\n....####....\n............\n............\n............"
+  },
+  "d88aba69": {
+   "R_a b3": "............\n.....##.....\n...#######..\n.##########.\n.##########.\n.##########.\n.##########.\n..#########.\n..#########.\n.#########..\n....#####...\n............",
+   "R_b W3 col-mean": "##.........#\n........##..\n.####..####.\n.#.##.####.#\n.#.###.#####\n....#..##...\n....###.....\n..#.#####...\n....####..#.\n............\n.........#.#\n............",
+   "R_c zero-in t=999": "............\n............\n.....##.....\n....####....\n...######...\n..########..\n..########..\n...######...\n...#####....\n.....##.....\n............\n............",
+   "R_c2 noise-mean t=999": "............\n............\n.....##.....\n....####....\n...######...\n..########..\n..########..\n...######...\n...######...\n.....##.....\n............\n............",
+   "sampler mean (64)": "............\n............\n......#.....\n....#####...\n...######...\n...#######..\n...#######..\n...######...\n....#####...\n............\n............\n............"
+  }
+ }
+}

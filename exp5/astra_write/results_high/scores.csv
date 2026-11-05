@@ -1,0 +1,11 @@
+game,condition,rep,model,statements,skipped,nonzero,mean,se,network
+asterix,orig,0,deepseek-v4.1,93,0,1345,1.576,0.06,results_high/networks/asterix__orig__r0__deepseek-v4.1.npz
+asterix,orig,0,deepseek-v4.1-flash,117,0,780,5.516,0.156,results_high/networks/asterix__orig__r0__deepseek-v4.1-flash.npz
+asterix,orig,0,glm-53,119,0,544,11.067,0.309,results_high/networks/asterix__orig__r0__glm-53.npz
+breakout,orig,0,deepseek-v4.1,24,0,105,7.856,0.275,results_high/networks/breakout__orig__r0__deepseek-v4.1.npz
+breakout,orig,0,kimi-k3,36,0,594,7.815,0.275,results_high/networks/breakout__orig__r0__kimi-k3.npz
+breakout,orig,0,deepseek-v4.1-flash,53,0,443,11.296,0.377,results_high/networks/breakout__orig__r0__deepseek-v4.1-flash.npz
+seaquest,orig,0,deepseek-v4.1,163,0,1288,0.564,0.034,results_high/networks/seaquest__orig__r0__deepseek-v4.1.npz
+seaquest,orig,0,kimi-k3,118,0,715,0.644,0.031,results_high/networks/seaquest__orig__r0__kimi-k3.npz
+seaquest,orig,0,deepseek-v4.1-flash,158,0,990,0.112,0.011,results_high/networks/seaquest__orig__r0__deepseek-v4.1-flash.npz
+seaquest,orig,0,glm-53,227,0,1852,0.18,0.016,results_high/networks/seaquest__orig__r0__glm-53.npz

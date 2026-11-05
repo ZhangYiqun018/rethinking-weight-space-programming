@@ -1,0 +1,13 @@
+;; Deny-list Seatbelt profile: everything that can hold experiment data, keys, results or credentials is unreadable;
+;; only the session work folder, the subject venv and the Python install are readable under /Users.
+(version 1)
+(allow default)
+(deny network*)
+(deny file-read*)
+(allow file-read* (subpath "/System") (subpath "/usr") (subpath "/Library") (subpath "/dev"))
+(allow file-read* (subpath (param "WORK")) (subpath (param "VENV")) (subpath (param "PYROOT")))
+(deny file-read* (subpath (param "BASE_SITE")))
+(allow file-read* (literal (param "PYLINK")))
+(allow file-read-metadata)
+(deny file-write*)
+(allow file-write* (subpath (param "WORK")) (literal "/dev/null"))

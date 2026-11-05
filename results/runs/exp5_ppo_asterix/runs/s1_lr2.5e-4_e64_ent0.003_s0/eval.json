@@ -1,0 +1,1 @@
+{"game": "asterix", "policy": "net:runs/s1_lr2.5e-4_e64_ent0.003_s0/actor.npz", "episodes": 300, "mean": 12.813333333333333, "se": 0.5254667900585895, "max": 40.0, "mean_length": 341.51, "cut_at_max_steps": 0.0}

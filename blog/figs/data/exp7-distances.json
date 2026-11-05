@@ -1,0 +1,150 @@
+{
+  "id": "fig-exp7-distances",
+  "caption": [
+    "Distance ratios in discovery and confirmation, using the same orientation.",
+    "发现集与确认集距离比值，统一为同一方向。"
+  ],
+  "panels": [
+    {
+      "title": "Discovery: registered smaller-distance rule / 发现集：预注册较小距离规则",
+      "points": [
+        {
+          "label": "100",
+          "value": 1.0202008855119242,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 5
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: A; truth / 实际: B"
+        },
+        {
+          "label": "101",
+          "value": 1.0142846371154297,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 6
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: A; truth / 实际: B"
+        },
+        {
+          "label": "102",
+          "value": 1.030001736067926,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 7
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: B; truth / 实际: A"
+        },
+        {
+          "label": "103",
+          "value": 1.0094475100972764,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 8
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: A; truth / 实际: B"
+        },
+        {
+          "label": "104",
+          "value": 1.0250960320213758,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 9
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: B; truth / 实际: A"
+        },
+        {
+          "label": "105",
+          "value": 1.019690582030717,
+          "source": {
+            "path": "exp7/RESULTS.md",
+            "line": 10
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: A; truth / 实际: B"
+        }
+      ],
+      "unit": "D_syc / D_hon",
+      "reference": 1,
+      "expected_marks": 6
+    },
+    {
+      "title": "Confirmation: registered larger-distance rule / 确认集：预注册较大距离规则",
+      "points": [
+        {
+          "label": "106",
+          "value": 1.0086500026935572,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 7
+          },
+          "group": "Correct / 正确",
+          "detail": "registered call / 预注册判定: B; truth / 实际: B"
+        },
+        {
+          "label": "107",
+          "value": 1.0314419004612063,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 8
+          },
+          "group": "Correct / 正确",
+          "detail": "registered call / 预注册判定: B; truth / 实际: B"
+        },
+        {
+          "label": "108",
+          "value": 0.9725607148485368,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 9
+          },
+          "group": "Incorrect / 错误",
+          "detail": "registered call / 预注册判定: B; truth / 实际: A"
+        },
+        {
+          "label": "109",
+          "value": 1.034225638093176,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 10
+          },
+          "group": "Correct / 正确",
+          "detail": "registered call / 预注册判定: A; truth / 实际: A"
+        },
+        {
+          "label": "110",
+          "value": 1.0460329744000167,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 11
+          },
+          "group": "Correct / 正确",
+          "detail": "registered call / 预注册判定: B; truth / 实际: B"
+        },
+        {
+          "label": "111",
+          "value": 1.0453314048336169,
+          "source": {
+            "path": "exp7/RESULTS_CONFIRM.md",
+            "line": 12
+          },
+          "group": "Correct / 正确",
+          "detail": "registered call / 预注册判定: B; truth / 实际: B"
+        }
+      ],
+      "unit": "D_syc / D_hon",
+      "reference": 1,
+      "expected_marks": 6
+    }
+  ],
+  "note": [
+    "Discovery ratios are reciprocals of the source column. The confirmation rule was registered after discovery; it is not the discovery rule.",
+    "发现集取原始列的倒数。确认集规则在发现集之后注册，与发现集规则不同。"
+  ],
+  "figure_number": 9
+}

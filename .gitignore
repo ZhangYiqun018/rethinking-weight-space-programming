@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+upstream/
+exp8/data/*.jsonl
+exp8/nltk_data/
+.DS_Store

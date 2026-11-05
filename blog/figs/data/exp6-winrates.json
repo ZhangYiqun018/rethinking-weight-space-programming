@@ -1,0 +1,430 @@
+{
+  "id": "fig-exp6-winrates",
+  "caption": [
+    "Go win rates with Wilson confidence intervals; missing matchups are marked.",
+    "围棋胜率及 Wilson 置信区间；未测对局明确标示。"
+  ],
+  "panels": [
+    {
+      "title": "vs s0",
+      "points": [
+        {
+          "label": "R0",
+          "value": 14.75,
+          "source": {
+            "path": "exp6/results/eval_R0_vs_s0.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R0",
+          "ci": [
+            13.263505890818003,
+            16.371645942510323
+          ],
+          "n": 2000,
+          "detail": "295/2000",
+          "beats": false
+        },
+        {
+          "label": "R1",
+          "value": 74.1,
+          "source": {
+            "path": "exp6/results/eval_R1_vs_s0.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R1",
+          "ci": [
+            72.13512449052789,
+            75.97247383051572
+          ],
+          "n": 2000,
+          "detail": "1482/2000",
+          "beats": true
+        },
+        {
+          "label": "b0",
+          "value": 42.1,
+          "source": {
+            "path": "exp6/results/gate_b0_vs_s0.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b0",
+          "ci": [
+            39.95338505611634,
+            44.27690429092745
+          ],
+          "n": 2000,
+          "detail": "842/2000",
+          "beats": false
+        },
+        {
+          "label": "b10",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b10",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b25",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b25",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b50",
+          "value": 75.5,
+          "source": {
+            "path": "exp6/results/gate_b50_vs_s0.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b50",
+          "ci": [
+            73.5673828496995,
+            77.3348477389566
+          ],
+          "n": 2000,
+          "detail": "1510/2000",
+          "beats": true
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "reference": 50,
+      "expected_marks": 4
+    },
+    {
+      "title": "vs s1",
+      "points": [
+        {
+          "label": "R0",
+          "value": 10.85,
+          "source": {
+            "path": "exp6/results/eval_R0_vs_s1.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R0",
+          "ci": [
+            9.561252722040278,
+            12.288852080081824
+          ],
+          "n": 2000,
+          "detail": "217/2000",
+          "beats": false
+        },
+        {
+          "label": "R1",
+          "value": 61.1,
+          "source": {
+            "path": "exp6/results/eval_R1_vs_s1.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R1",
+          "ci": [
+            58.944037751163,
+            63.213403799193166
+          ],
+          "n": 2000,
+          "detail": "1222/2000",
+          "beats": true
+        },
+        {
+          "label": "b0",
+          "value": 27.6,
+          "source": {
+            "path": "exp6/results/gate_b0_vs_s1.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b0",
+          "ci": [
+            25.685248174543197,
+            29.600635543656928
+          ],
+          "n": 2000,
+          "detail": "552/2000",
+          "beats": false
+        },
+        {
+          "label": "b10",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b10",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b25",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b25",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b50",
+          "value": 69.45,
+          "source": {
+            "path": "exp6/results/gate_b50_vs_s1.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b50",
+          "ci": [
+            67.3955905505604,
+            71.42983631019885
+          ],
+          "n": 2000,
+          "detail": "1389/2000",
+          "beats": true
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "reference": 50,
+      "expected_marks": 4
+    },
+    {
+      "title": "vs s2",
+      "points": [
+        {
+          "label": "R0",
+          "value": 13.25,
+          "source": {
+            "path": "exp6/results/eval_R0_vs_s2.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R0",
+          "ci": [
+            11.834352753837758,
+            14.806550221334328
+          ],
+          "n": 2000,
+          "detail": "265/2000",
+          "beats": false
+        },
+        {
+          "label": "R1",
+          "value": 69.25,
+          "source": {
+            "path": "exp6/results/eval_R1_vs_s2.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R1",
+          "ci": [
+            67.19230634767615,
+            71.2338873319956
+          ],
+          "n": 2000,
+          "detail": "1385/2000",
+          "beats": true
+        },
+        {
+          "label": "b0",
+          "value": 34.4,
+          "source": {
+            "path": "exp6/results/gate_b0_vs_s2.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b0",
+          "ci": [
+            32.34976653315581,
+            36.510045342019275
+          ],
+          "n": 2000,
+          "detail": "688/2000",
+          "beats": false
+        },
+        {
+          "label": "b10",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b10",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b25",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b25",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b50",
+          "value": 80.95,
+          "source": {
+            "path": "exp6/results/gate_b50_vs_s2.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b50",
+          "ci": [
+            79.17026214984504,
+            82.6110726234454
+          ],
+          "n": 2000,
+          "detail": "1619/2000",
+          "beats": true
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "reference": 50,
+      "expected_marks": 4
+    },
+    {
+      "title": "vs random",
+      "points": [
+        {
+          "label": "R0",
+          "value": 85.75,
+          "source": {
+            "path": "exp6/results/eval_R0_vs_random.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R0",
+          "ci": [
+            84.14940520457081,
+            87.21352591481961
+          ],
+          "n": 2000,
+          "detail": "1715/2000",
+          "beats": false
+        },
+        {
+          "label": "R1",
+          "value": 99.7,
+          "source": {
+            "path": "exp6/results/eval_R1_vs_random.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "R1",
+          "ci": [
+            99.34700849260646,
+            99.86243700763698
+          ],
+          "n": 2000,
+          "detail": "1994/2000",
+          "beats": false
+        },
+        {
+          "label": "b0",
+          "value": 99.65,
+          "source": {
+            "path": "exp6/results/eval_b0_vs_random.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b0",
+          "ci": [
+            99.27928037467582,
+            99.83035683029577
+          ],
+          "n": 2000,
+          "detail": "1993/2000",
+          "beats": false
+        },
+        {
+          "label": "b10",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b10",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b25",
+          "value": null,
+          "source": [
+            {
+              "path": "exp6/RESULTS.md",
+              "line": 1
+            }
+          ],
+          "group": "b25",
+          "detail": "Unmeasured / 未测"
+        },
+        {
+          "label": "b50",
+          "value": 99.9,
+          "source": {
+            "path": "exp6/results/eval_b50_vs_random.json",
+            "line": 1,
+            "key": "score, wilson95"
+          },
+          "group": "b50",
+          "ci": [
+            99.63610657309616,
+            99.97257210823479
+          ],
+          "n": 2000,
+          "detail": "1998/2000",
+          "beats": false
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "reference": 50,
+      "expected_marks": 4
+    }
+  ],
+  "note": [
+    "“Beats PPO” means the lower confidence bound exceeds the equal-win reference.",
+    "“胜过 PPO”表示置信区间下限高于等胜率参考线。"
+  ],
+  "figure_number": 7
+}

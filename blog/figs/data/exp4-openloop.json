@@ -1,0 +1,2400 @@
+{
+  "id": "fig-exp4-openloop",
+  "caption": [
+    "Success rates across perturbation sweeps; use the selector to inspect each sweep.",
+    "各扰动扫描的成功率；使用选择器查看不同扫描。"
+  ],
+  "panels": [
+    {
+      "title": "Fine wheel-friction sweep (16 episodes per point; successes out of 16)",
+      "points": [
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 182
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 182
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 182
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.6",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 183
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.6",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 183
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.6",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 183
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.7",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 184
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.7",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 184
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.7",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 184
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.75",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 185
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.75",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 185
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.75",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 185
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.8",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 186
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 186
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 186
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.0",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 187
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.0",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 187
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.0",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 187
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 188
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 188
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 188
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.3",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 189
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 189
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 189
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 190
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 190
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 190
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 191
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 191
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 191
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.6",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 192
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.6",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 192
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.6",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 192
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.8",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 193
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "1.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 193
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "1.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 193
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "2.0 ★",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 194
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "2.0 ★",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 194
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "2.0 ★",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 194
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "2.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 195
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "2.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 195
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "2.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 195
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 196
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "3",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 196
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "3",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 196
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "3.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 197
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "3.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 197
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "3.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 197
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 198
+          },
+          "group": "base",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 198
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 198
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 51
+    },
+    {
+      "title": "Nominal",
+      "points": [
+        {
+          "label": "nominal",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 48
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "nominal",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 48
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "nominal",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 48
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 3
+    },
+    {
+      "title": "(a) car start x shifted by d (body and both wheels; scene units; car body is 0.66 wide, starts at x=2.8)",
+      "points": [
+        {
+          "label": "-0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 55
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "-0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 55
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "-0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 55
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "-0.25",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 56
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "-0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 56
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "-0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 56
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "-0.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 57
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "-0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 57
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "-0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 57
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 58
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 58
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 58
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.25",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 59
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 59
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 59
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 60
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 60
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 60
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 18
+    },
+    {
+      "title": "(b) Gaussian observation noise, sigma x per-feature std; std taken over 64 rollouts of the named actor (live steps only); noise redrawn each step",
+      "points": [
+        {
+          "label": "base_rollout / 0.01",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 67
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "base_rollout / 0.01",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 67
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "base_rollout / 0.01",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 67
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "base_rollout / 0.05",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 68
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "base_rollout / 0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 68
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "base_rollout / 0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 68
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "base_rollout / 0.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 69
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "base_rollout / 0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 69
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "base_rollout / 0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 69
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "edited_rollout / 0.01",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 70
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "edited_rollout / 0.01",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 70
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "edited_rollout / 0.01",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 70
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "edited_rollout / 0.05",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 71
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "edited_rollout / 0.05",
+          "value": 98.828125,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 71
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "253/256"
+        },
+        {
+          "label": "edited_rollout / 0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 71
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "edited_rollout / 0.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 72
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "edited_rollout / 0.1",
+          "value": 98.4375,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 72
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "252/256"
+        },
+        {
+          "label": "edited_rollout / 0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 72
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 18
+    },
+    {
+      "title": "(c) wheel friction multiplier (both wheels)",
+      "points": [
+        {
+          "label": "0.8",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 79
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 79
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 79
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 80
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 80
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 80
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 81
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 81
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 81
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 82
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 82
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 82
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 12
+    },
+    {
+      "title": "(c) car mass multiplier (body and both wheels, inverse mass and inverse inertia scaled)",
+      "points": [
+        {
+          "label": "0.8",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 89
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 89
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 89
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 90
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 90
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 90
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 91
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 91
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 91
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 92
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 92
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 92
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 12
+    },
+    {
+      "title": "Fine x-shift sweep (16 episodes per point; successes out of 16)",
+      "points": [
+        {
+          "label": "-0.6 ★",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 99
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.6 ★",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 99
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "-0.55",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 100
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "-0.55",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 100
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "0/16"
+        },
+        {
+          "label": "-0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 101
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 101
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.45",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 102
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.45",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 102
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 103
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 103
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.35",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 104
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.35",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 104
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 105
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 105
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 106
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 106
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 107
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 107
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.15",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 108
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.15",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 108
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 109
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 109
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 110
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "-0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 110
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.0",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 111
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.0",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 111
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 112
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.05",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 112
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 113
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 113
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.15",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 114
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.15",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 114
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 115
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 115
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 116
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.25",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 116
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 117
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.3",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 117
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.35",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 118
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.35",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 118
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 119
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 119
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.45",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 120
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.45",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 120
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 121
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 121
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.55",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 122
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.55",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 122
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.6",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 123
+          },
+          "group": "edited",
+          "n": 16,
+          "detail": "16/16"
+        },
+        {
+          "label": "0.6",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 123
+          },
+          "group": "open-loop",
+          "n": 16,
+          "detail": "16/16"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 50
+    },
+    {
+      "title": "Body-only mass multiplier (256 episodes)",
+      "points": [
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 150
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 150
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 150
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.8",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 151
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 151
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.8",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 151
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 152
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 152
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.9",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 152
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 153
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 153
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.1",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 153
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 154
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 154
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "1.2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 154
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 155
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 155
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 155
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 156
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 156
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 156
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 21
+    },
+    {
+      "title": "Wheel friction, wider range (256 episodes)",
+      "points": [
+        {
+          "label": "0.25",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 163
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.25",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 163
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.25",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 163
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 164
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 164
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 164
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "2",
+          "value": 97.65625,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 165
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "250/256"
+        },
+        {
+          "label": "2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 165
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 165
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 166
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 166
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 166
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "0/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 12
+    },
+    {
+      "title": "Uniform car mass, wider range (256 episodes)",
+      "points": [
+        {
+          "label": "0.5",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 173
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 173
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "0.5",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 173
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "2",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 174
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 174
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "2",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 174
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "4",
+          "value": 0.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 175
+          },
+          "group": "base",
+          "n": 256,
+          "detail": "0/256"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 175
+          },
+          "group": "edited",
+          "n": 256,
+          "detail": "256/256"
+        },
+        {
+          "label": "4",
+          "value": 100.0,
+          "source": {
+            "path": "exp4/RESULTS.md",
+            "line": 175
+          },
+          "group": "open-loop",
+          "n": 256,
+          "detail": "256/256"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "groupedByLabel": true,
+      "expected_marks": 9
+    }
+  ],
+  "note": [
+    "Fine start-shift has no base measurement. Repeated deterministic open-loop episodes are not independent environments. Edge 2.0: base 16/16, edited 16/16, open-loop 0/16. Edge -0.6: edited 16/16, open-loop 0/16.",
+    "细粒度初始偏移未测基础网络。重复的确定性开环局并非独立环境。 边缘点 2.0：base 16/16, edited 16/16, open-loop 0/16。 边缘点 -0.6：edited 16/16, open-loop 0/16。"
+  ],
+  "figure_number": 3
+}

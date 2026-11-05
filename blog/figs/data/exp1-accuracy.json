@@ -1,0 +1,1052 @@
+{
+  "id": "fig-exp1-accuracy",
+  "caption": [
+    "Accuracy by condition; random initialization is scored as abstention.",
+    "各条件准确率；随机初始化以弃答为正确。"
+  ],
+  "panels": [
+    {
+      "title": "orig",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 100.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 14
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 17
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 18
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 47
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 50
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 51
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 74
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 75
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 76
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 95
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 96
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 97
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "12/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 75.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "3/4"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": 50.0,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 6
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 8
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 18
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 20
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 30
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 32
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 41
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 43
+            }
+          ],
+          "group": "DeepSeek V4.1",
+          "n": 8,
+          "detail": "4/8; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": 37.5,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 7
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 9
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 19
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 21
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 31
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 33
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 42
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 44
+            }
+          ],
+          "group": "Kimi K3",
+          "n": 8,
+          "detail": "3/8; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": 50.0,
+          "source": [
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'orig', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'orig', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'orig', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'orig', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'orig', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'orig', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'orig', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'orig', 'r1']; output_text; exp1/score.py:score_text"
+            }
+          ],
+          "group": "GLM 5.3",
+          "n": 8,
+          "detail": "4/8; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 5
+    },
+    {
+      "title": "anon",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 100.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 4
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 7
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 8
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 37
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 40
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 41
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 68
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 69
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 70
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 89
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 90
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 91
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "12/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 75.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "3/4 (name-invariant derivation / 名称不变推导)"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": 37.5,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 2
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 4
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 14
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 16
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 26
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 28
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 37
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 39
+            }
+          ],
+          "group": "DeepSeek V4.1",
+          "n": 8,
+          "detail": "3/8; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": 37.5,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 3
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 5
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 15
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 17
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 27
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 29
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 38
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 40
+            }
+          ],
+          "group": "Kimi K3",
+          "n": 8,
+          "detail": "3/8; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": 12.5,
+          "source": [
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'anon', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'anon', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'anon', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'anon', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'anon', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'anon', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'anon', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'anon', 'r1']; output_text; exp1/score.py:score_text"
+            }
+          ],
+          "group": "GLM 5.3",
+          "n": 8,
+          "detail": "1/8; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 5
+    },
+    {
+      "title": "swap12",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 100.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 32
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 33
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 34
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 65
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 66
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 67
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 86
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 87
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 88
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 107
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 108
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 109
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "12/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 75.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "3/4 (name-invariant derivation / 名称不变推导)"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": null,
+          "source": [],
+          "group": "DeepSeek V4.1",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": null,
+          "source": [],
+          "group": "Kimi K3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": null,
+          "source": [],
+          "group": "GLM 5.3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 2
+    },
+    {
+      "title": "perm",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 100.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 19
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 20
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 21
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 52
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 53
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 54
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 77
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 78
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 79
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 98
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 99
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 100
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "12/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 75.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "3/4"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": null,
+          "source": [],
+          "group": "DeepSeek V4.1",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": null,
+          "source": [],
+          "group": "Kimi K3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": null,
+          "source": [],
+          "group": "GLM 5.3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 2
+    },
+    {
+      "title": "shuffle",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 83.33333333333333,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 29
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 30
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 31
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 62
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 63
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 64
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 83
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 84
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 85
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 104
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 105
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 106
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "10/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 50.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "2/4"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": null,
+          "source": [],
+          "group": "DeepSeek V4.1",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": null,
+          "source": [],
+          "group": "Kimi K3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": null,
+          "source": [],
+          "group": "GLM 5.3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 2
+    },
+    {
+      "title": "anonshuffle",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 75.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 9
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 10
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 11
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 42
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 43
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 44
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 71
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 72
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 73
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 92
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 93
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 94
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "9/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 50.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "2/4 (name-invariant derivation / 名称不变推导)"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": null,
+          "source": [],
+          "group": "DeepSeek V4.1",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": null,
+          "source": [],
+          "group": "Kimi K3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": null,
+          "source": [],
+          "group": "GLM 5.3",
+          "n": 0,
+          "detail": "0/0; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 2
+    },
+    {
+      "title": "randinit (abstention / 弃答)",
+      "points": [
+        {
+          "label": "Astra",
+          "value": 100.0,
+          "source": [
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 24
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 27
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 28
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 57
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 60
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 61
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 80
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 81
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 82
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 101
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 102
+            },
+            {
+              "path": "exp1/results/scores.csv",
+              "line": 103
+            }
+          ],
+          "group": "Astra",
+          "n": 12,
+          "detail": "12/12; review / 待审 0"
+        },
+        {
+          "label": "No-LLM / 无 LLM",
+          "value": 100.0,
+          "source": {
+            "path": "blog_response/verify/exp1_baseline.txt",
+            "line": 18
+          },
+          "group": "No-LLM / 无 LLM",
+          "n": 4,
+          "detail": "4/4"
+        },
+        {
+          "label": "DeepSeek V4.1",
+          "value": 14.285714285714286,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 10
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 12
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 22
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 24
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 34
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 45
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 47
+            }
+          ],
+          "group": "DeepSeek V4.1",
+          "n": 7,
+          "detail": "1/7; review / 待审 0"
+        },
+        {
+          "label": "Kimi K3",
+          "value": 37.5,
+          "source": [
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 11
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 13
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 23
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 25
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 35
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 36
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 46
+            },
+            {
+              "path": "exp1/results/scores_open.csv",
+              "line": 48
+            }
+          ],
+          "group": "Kimi K3",
+          "n": 8,
+          "detail": "3/8; review / 待审 0"
+        },
+        {
+          "label": "GLM 5.3",
+          "value": 62.5,
+          "source": [
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'randinit', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['0bbcc3ea', 'randinit', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'randinit', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['a9f535cc', 'randinit', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'randinit', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['bdf99279', 'randinit', 'r1']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'randinit', 'r0']; output_text; exp1/score.py:score_text"
+            },
+            {
+              "path": "exp1/results/raw",
+              "line": 1,
+              "key": "exp1/score.py over exp1/results/raw (GLM 5.3 replies); identity=['dfc6cb65', 'randinit', 'r1']; output_text; exp1/score.py:score_text"
+            }
+          ],
+          "group": "GLM 5.3",
+          "n": 8,
+          "detail": "5/8; review / 待审 0"
+        }
+      ],
+      "unit": "%",
+      "domain": [
+        0,
+        100
+      ],
+      "expected_marks": 5
+    }
+  ],
+  "note": [
+    "Unmeasured cells are not zero. No-LLM name-only conditions are derived from its name-invariant rule.",
+    "未测条件不记为零。无 LLM 的名称条件由其不使用名称的规则推导。"
+  ],
+  "figure_number": 1
+}

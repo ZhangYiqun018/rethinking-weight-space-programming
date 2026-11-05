@@ -1,0 +1,1 @@
+{"game": "seaquest", "policy": "net:runs/s1_lr1e-3_e64_ent0.003_s0/actor.npz", "episodes": 300, "mean": 4.366666666666666, "se": 0.0929910909451496, "max": 8.0, "mean_length": 197.45, "cut_at_max_steps": 0.0}

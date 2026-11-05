@@ -1,0 +1,76 @@
+{
+ "config": {
+  "level": "l/h2_car_ramp",
+  "obs": "SYMBOLIC_FLAT",
+  "action": "MULTI_DISCRETE",
+  "env_size": "l",
+  "frame_skip": 2,
+  "max_timesteps": 256,
+  "dense_reward_scale": 0.2,
+  "num_polygons/circles/joints/thrusters": [
+   12,
+   4,
+   6,
+   2
+  ]
+ },
+ "base": {
+  "n": 256,
+  "success": 0,
+  "rate": 0.0,
+  "wilson95": [
+   0.0,
+   0.014784391721725852
+  ],
+  "red": 0,
+  "timeout_or_other": 256,
+  "mean_len": 256.0,
+  "seconds": 18.994192838668823,
+  "distinct_action_sequences_all6": 256,
+  "distinct_state_trajectories_obs_hash": 256,
+  "distinct_action_sequences_entry0": 256,
+  "initial_obs_identical_across_episodes": true,
+  "episode_lengths_distinct": [
+   256
+  ],
+  "top_entry0_sequence_counts": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ]
+ },
+ "edited": {
+  "n": 1024,
+  "success": 1024,
+  "rate": 1.0,
+  "wilson95": [
+   0.9962624591182144,
+   1.0
+  ],
+  "red": 0,
+  "timeout_or_other": 0,
+  "mean_len": 73.0,
+  "seconds": 55.807411193847656,
+  "distinct_action_sequences_all6": 1024,
+  "distinct_state_trajectories_obs_hash": 2,
+  "distinct_action_sequences_entry0": 1,
+  "initial_obs_identical_across_episodes": true,
+  "episode_lengths_distinct": [
+   73
+  ],
+  "top_entry0_sequence_counts": [
+   1024
+  ]
+ },
+ "reset_identical_for_different_keys": true,
+ "base_argmax_outcome": [
+  0,
+  256
+ ],
+ "edited_argmax_outcome": [
+  1,
+  73
+ ]
+}

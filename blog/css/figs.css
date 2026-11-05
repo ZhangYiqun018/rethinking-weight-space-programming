@@ -1,0 +1,52 @@
+/* Figures only (js/figs.js): independent of the shared navigation layout. */
+d-article figure.data-figure-shell { min-width: 0; margin-top: 2rem; margin-bottom: 2rem; }
+.data-figure { box-sizing: border-box; width: 100%; min-width: 0; padding: 16px; border: 1px solid #d5e3d9; border-radius: 8px; background: #ffffff; font-family: var(--font-sans); color: #1f2d26; }
+
+/* A choice between secondary views: a row of toggle buttons */
+.fig-controls { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 12px; }
+.fig-toggle { padding: 5px 11px; font: inherit; font-size: 13px; line-height: 1.3; color: #24543f; background: #ffffff; border: 1px solid #a5c3af; border-radius: 999px; cursor: pointer; }
+.fig-toggle:hover { background: #eef6f1; }
+.fig-toggle[aria-pressed="true"] { color: #ffffff; background: #24543f; border-color: #24543f; }
+.fig-toggle:focus-visible { outline: 2px solid #0072B2; outline-offset: 2px; }
+
+/* Legend: the marks as they appear in the figure */
+.fig-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 10px; font-size: 13px; line-height: 1.4; color: #34493d; }
+.fig-key { display: inline-flex; align-items: center; gap: 5px; }
+.fig-swatch { flex: none; }
+
+.fig-body { min-width: 0; }
+.fig-body.fig-flow { display: flex; flex-wrap: wrap; gap: 14px 20px; align-items: flex-start; }
+.fig-cell { min-width: 0; max-width: 100%; }
+.fig-subfigure { width: 100%; margin-top: 14px; padding-top: 12px; border-top: 1px solid #e3ebe6; }
+.fig-subtitle { margin: 0 0 8px; font-size: 13.5px; font-weight: 600; }
+
+.fig-svg { display: block; max-width: 100%; height: auto; overflow: visible; }
+.fig-svg text { font-family: var(--font-sans); fill: #2c3d33; }
+.fig-svg .t-title { font-size: 13px; font-weight: 700; fill: #1f2d26; }
+.fig-svg .t-row { font-size: 12.5px; font-weight: 600; }
+.fig-svg .t-small { font-size: 11.5px; }
+.fig-svg .t-colhead { font-size: 11.5px; font-weight: 600; fill: #34493d; }
+.fig-svg .t-code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; fill: #6a756e; }
+.fig-svg .t-tick { font-size: 11px; fill: #5b6b61; }
+.fig-svg .t-val { font-size: 11.5px; font-weight: 600; fill: #1f2d26; }
+.fig-svg .t-cell { font-size: 13px; font-weight: 700; }
+.fig-svg .t-cellsub { font-size: 11px; }
+.fig-svg .t-cellsmall { font-size: 9.5px; font-weight: 600; }
+.fig-svg .t-missing { font-size: 11px; font-style: italic; fill: #7a827d; }
+.fig-svg .data-mark:focus { outline: 2px solid #182e24; outline-offset: 2px; }
+
+.fig-foot { font-size: 13px; line-height: 1.5; color: #34493d; }
+.fig-foot p { margin: 10px 0 0; }
+
+.fig-source-data { margin-top: 12px; font-size: 12px; line-height: 1.4; border-top: 1px solid #d5e3d9; padding-top: 8px; }
+.fig-source-data summary { cursor: pointer; color: #16734e; }
+.fig-table-scroll { max-height: 360px; overflow: auto; }
+.fig-table-title { margin: 10px 0 4px; font-weight: 700; }
+d-article .fig-data-table { display: table; width: 100%; table-layout: fixed; font-size: 11px; }
+d-article .fig-data-table th, d-article .fig-data-table td { white-space: normal; overflow-wrap: anywhere; padding: 6px; vertical-align: top; }
+.fig-source-data p { overflow-wrap: anywhere; }
+
+@media (max-width: 420px) {
+  .data-figure { padding: 12px 10px; }
+  .fig-legend { font-size: 12.5px; }
+}
